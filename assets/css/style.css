@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
 
 
 /*----body settings----*/
@@ -6,14 +6,18 @@
 body {
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: 'Open Sans', sans-serif;    
-  color: #333333;
+  font-family: 'Roboto', sans-serif;    
+  color: #585858;
 }
 
+/*-- Explore Page About Section--*/
+.about-country h1 {
+    margin-top: 1rem;
+    padding: 1.4rem;
+}
 
 /*-- Navbar ---*/
 .navbar {
-  font-family: 'PT Serif', serif;
   font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: .06rem;
@@ -29,21 +33,26 @@ body {
   padding-left: 0.5rem;
 }
 
-.nav-link:hover {
-  color: #292828!important;    
+.nav-link:hover,
+.nav-link.active {
+  color: #4E4E4E!important;    
 }
 
 /*-- Carousel Slide ---*/
 
 .carousel-inner {
     max-height: 54rem!important;
+    background: no-repeat center center;
+    object-fit: cover;
+
 }
-.carusel-item-next,
+/*.carusel-item-next,
 .carousel-item-prev,
-carousel-item.active {
+.carousel-item.active {
     -webkit-transition: opacity 2s ease-in-out;
     -moz-transition: opacity 2s ease-in-out;
     -o-transition: opacity 2s ease-in-out;
     transition: opacity 2s ease-in-out;
-}
-/*font-family: 'PT Serif', serif;*/
+}*/
+
+
