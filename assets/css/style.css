@@ -8,12 +8,17 @@ body {
   overflow-y: auto;
   font-family: 'Roboto', sans-serif;    
   color: #585858;
+  
 }
-
+ body p {
+     line-height: 1.8;
+ }
+ 
 /*-- Explore Page About Section--*/
-.about-country h1 {
+h1 {
     margin-top: 1rem;
     padding: 1.4rem;
+    letter-spacing: .08rem;
 }
 
 /*-- Navbar ---*/
@@ -46,13 +51,41 @@ body {
     object-fit: cover;
 
 }
-/*.carusel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    -webkit-transition: opacity 2s ease-in-out;
-    -moz-transition: opacity 2s ease-in-out;
-    -o-transition: opacity 2s ease-in-out;
-    transition: opacity 2s ease-in-out;
-}*/
+
+/*--Explore Page--*/
+/*--Cards Section--*/
+.card-zoom {
+    position: relative;
+    overflow: hidden;
+    
+}
+.card-zoom:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+.card-zoom img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+#more {
+    display: none;
+}
 
 
+
+/*--Media Queries--*
+@media (max-width: 1200px) {
+    
+    } 
+  
+}
+
+@media (max-width: 768px) {
+
+ 
+}
+
+@media (max-width: 576px) {
+}
