@@ -54,6 +54,10 @@ h1 {
 
 /*--Explore Page--*/
 /*--Cards Section--*/
+
+.card {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .08);
+}
 .card-zoom {
     position: relative;
     overflow: hidden;
@@ -69,12 +73,9 @@ h1 {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-#more {
+p .more {
     display: none;
 }
-
-
-
 
 /*--Footer--*/
 footer {
