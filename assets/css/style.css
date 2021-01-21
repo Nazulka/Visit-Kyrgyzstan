@@ -73,9 +73,22 @@ h1 {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-p .more {
-    display: none;
+
+
+.more {
+  display: none;
 }
+
+.card-body.open .more {
+  display: inline;
+}
+
+.card-body.open .dots {
+  display: none;
+}
+
+
+
 
 /*--Footer--*/
 footer {
