@@ -18,7 +18,11 @@ body {
 h1 {
     margin-top: 1rem;
     padding: 1.4rem;
-    letter-spacing: .08rem;
+    letter-spacing: .08rem;    
+} 
+.lead {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /*-- Navbar ---*/
@@ -73,7 +77,10 @@ h1 {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-
+#explore-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .more {
   display: none;
