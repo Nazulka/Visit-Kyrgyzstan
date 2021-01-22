@@ -81,6 +81,12 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
 }
+.card-title {
+    padding-top: 1rem;
+}
+.card-text {
+    padding-top: 0.7rem;
+}
 
 .more {
   display: none;
@@ -94,15 +100,22 @@ h1 {
   display: none;
 }
 
+/*--Map--*/
 
-
-
+div#map{
+    min-height: 400px;
+    width: 100%;
+}
 /*--Footer--*/
 footer {
   width: 100%;
   background-color: #7a7979;
 }
-
+.footer-items {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 0 2rem;
+}
 footer a {
   color: #fff;
   text-decoration: none;
@@ -120,7 +133,7 @@ ul.social {
 ul.social li {
   margin: 0 auto;
   font-size: 1.5rem;
-  padding: 0.8rem;
+  padding: 0;
 }
 ul.social li a i {   
   color: white;
@@ -131,15 +144,15 @@ ul.social li a i {
 }
 
 .social li a i:hover {
-  color: #babdbb;
+  color: #a4a7a5;
 }
 .copyright {
     text-decoration: none;
     color: #fff;
-    padding-top: 1.5rem;
+    padding: 0;
 }
 .copyright:hover {
-  color: #babdbb;
+  color: #bdbebd;
 }
 
 
@@ -155,5 +168,14 @@ ul.social li a i {
  
 }
 
+
+*/
 @media (max-width: 576px) {
+.footer-items {
+    width: 100%;
+}
+ul.social li {  
+  font-size: 1.2rem;
+  
+}
 }

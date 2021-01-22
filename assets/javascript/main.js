@@ -1,3 +1,5 @@
+// Read more / Read less buttons
+
 var cards = document.querySelector('#explore-cards');
 
 cards.addEventListener('click', function(e) {
@@ -15,3 +17,14 @@ cards.addEventListener('click', function(e) {
     }
   }
 });
+
+// Add Google Maps
+
+function initMap(){
+    var options = {
+        zoom:10,
+        center: {lat: 42.3883,lng: -77.2865}
+    }
+    var map = new
+    google.maps.Map(document.getElementById("map"), options);
+};
