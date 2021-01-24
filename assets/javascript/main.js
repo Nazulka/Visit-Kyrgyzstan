@@ -1,6 +1,6 @@
 // Read more / Read less buttons
 
-var cards = document.querySelector('#explore-cards');
+var cards = document.querySelector('#discover-cards');
 
 cards.addEventListener('click', function(e) {
   var target = e.target;
@@ -23,7 +23,7 @@ cards.addEventListener('click', function(e) {
 function initMap(){
     var options = {
         zoom:10,
-        center: {lat: 42.3883,lng: -77.2865}
+        center: {lat: 42.8746,lng: -74.5698}
     }
     var map = new
     google.maps.Map(document.getElementById("map"), options);

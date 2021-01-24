@@ -7,21 +7,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("user_X5lcjhj7wOu0WoBwmv1zz");
+      var templateParams = {
+    name: 'Nazee',
+    notes: "I'd like to find out more about ... "
+};
+ 
+emailjs.send('Gmail', 'MS2', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+   })();
+</script>
+
     <title>Visit Kyrgyzstan</title>
 </head>
 <body>
 
-<!-- Navigation -->    
+<!-- Navigation Bar-->    
 <header> 
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container-fluid">                                            
-                <a class="navbar-brand" href="#"><img src="assets/images/kg-logo.png" alt="Logo in the shape of the map of Kyrgyzstan" title="Logo"></a>                        
+                <a class="navbar-brand" href="#home"><img src="assets/images/kg-logo.png" alt="Logo in the shape of the map of Kyrgyzstan" title="Logo"></a>                        
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-label="Brand Logo">
                     <span class="navbar-toggler-icon"></span>
                 </button>                                                                     
                 <div class="collapse navbar-collapse" id="collapse_target">                    
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#image-show">Home</a></li>                        
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>                        
                         <li class="nav-item"><a class="nav-link" href="#discover">Discover</a></li>
                         <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -32,10 +50,10 @@
 </header>    
 
 
-<!-- Discover Page -->
+<!-- Home Page -->
 <!-- Carousel Slide-->
 
-<div id="discover">
+<div id="home">
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -66,27 +84,26 @@
 </div>
 
 
-<!-- Explore Page -->
+<!--Discover Page -->
 <!--About section-->
-<div id="explore">
+<div id="discover">
     <div class="container-fluid">
         <div class="row about-country">
             <div class="col-12">
                 <h1>Discover Kyrgyzstan</h1>
                 <p class="lead">If mountains are your thing, then Kyrgyzstan is your place.
-Tucked into the heart of Central Asia, Kyrgyzstan’s skyline is dominated by craggy peaks and alpine lakes. Pull on your boots and get 
-trekking to really experience its spectacular beauty. You’re likely to come across spectacular glaciers, be invited into a yurt for 
-some yoghurt or ushered to the sidelines of a ferocious game of goat polo.</p>
+                    Tucked into the heart of Central Asia, Kyrgyzstan’s skyline is dominated by craggy peaks and alpine lakes. Pull on your boots and get 
+                    trekking to really experience its spectacular beauty. You’re likely to come across spectacular glaciers, be invited into a yurt for 
+                    some yoghurt or ushered to the sidelines of a ferocious game of goat polo.</p>
             </div>
         </div>
     </div>
 </div>
 
 <!--Cards Section-->
-<div id="explore-cards">
+<div id="discover-cards">
     <div class="container-fluid">
         <div class="row pt-5">
-
             <div class="col-md-4">
                 <div class="card card-zoom">
                     <img class="card-img-top img-fluid" src="assets/images/card1.jpg" alt="Ala-Too square in Bishkek">
@@ -107,7 +124,7 @@ some yoghurt or ushered to the sidelines of a ferocious game of goat polo.</p>
                     <div class="card-body">
                     <h4 class="card-title">Best time to visit</h4>
                     <p class="card-text">With its tough, continental climate, Kyrgyzstan is very much a seasonal destination.As can be expected in a country where the vast majority of attractions are rural and high altitude, 
-                        the timing of your visit is crucial. Unless travelling to the country for purposes of business or winter skiing, most <span class="dots">...</span><span class="more"> visitors tend to come between May 
+                        the timing of your visit is crucial. Unless travelling to the country for purposes of business or winter <span class="dots">...</span><span class="more">skiing, most visitors tend to come between May 
                         and October.</br> For those whose interest is primarily in outdoor pursuits, the peak trekking season is a little shorter – between early June and mid- September.</br> The 
                         period from mid-July to late August is by far the busiest with overseas visitors, partly because of the climate and partly as a result of this being the main European summer holiday season.</br>                          
                         From October to May, much rural accommodation closes down and the yurts that add such character to the Alpine vistas are stashed away.</span></p>                                 
@@ -135,28 +152,87 @@ some yoghurt or ushered to the sidelines of a ferocious game of goat polo.</p>
     </div>
 </div>
 
+
+<!--Explore Section-->
 <!--Map Section-->
-<div class="container-fluid">
-    <div class="row">             
-        <h2>Explore these places</h2>
-        
+<div id="explore">
+    <div class="container-fluid">
+        <div class="row pt-5">
+            <div class="col-12 map-title">        
+            <h2>Explore these places</h2>
+            </div> 
+        </div>
+        <div class="row justify-content-center align-items-center">    
+            <div class="col-4 map-description mb-5">
+                <h5>Description of the place</h5>
+                <p class="map-text">Description 
+                </p>
+            </div>
+            <div class="col-8">
+                <div id="map">
+
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-
-<div id="map"></div>
-
-
-
-
-
-
-
 
 
 
 <!-- Contact Page -->
 <div id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center mt-3 py-5">        
+                <h2 class="contact-heading">Get in touch with us</h2>
+                <p class="lead">Thank you for visiting us!</p>
+                <p class="lead">If you've got questions, feedback or ideas you would like to share, please contact us using the form below.</p>
+                <p class="lead">We'd love to hear from you!</p>
+            </div>
+        </div>
+        <div class="row contact-form justify-content-center align-items-center">
+            <div class="col-xs-10 col-md-6">                              
+                <form>                                                    
+                    <div class="form-group ">
+                        <label for="name">Name</label>
+                        <span class="form-label-marker">*</span>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required/>
+                    </div>                                
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <span class="form-label-marker">*</span>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <span class="form-label-marker">*</span>
+                        <textarea rows="8" name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">I would like to receive a newsletter</label>
+                    </div>  
+                    <div class="form-row text-center">     
+                        <div class="col py-5">                              
+                        <button type="submit" class="btn btn-form btn-danger">Subscribe</button>            
+                        </div>                         
+                    </div>                                                          
+                </form>                   
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 </div>
 

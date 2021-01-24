@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   overflow-y: auto;
+  position: relative;
   font-family: 'Roboto', sans-serif;    
   color: #585858;
   
@@ -14,16 +15,6 @@ body {
      line-height: 1.8;
  }
  
-/*-- Explore Page About Section--*/
-h1 {
-    margin-top: 1rem;
-    padding: 1.4rem;
-    letter-spacing: .08rem;    
-} 
-.lead {
-    max-width: 80%;
-    margin: 0 auto;
-}
 
 /*-- Navbar ---*/
 .navbar {
@@ -55,8 +46,18 @@ h1 {
     object-fit: cover;
 
 }
+/*-- Discover Page--*/
+/*--About Section--*/
+h1 {
+    margin-top: 1rem;
+    padding: 1.4rem;
+    letter-spacing: .08rem;    
+} 
+.lead {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
-/*--Explore Page--*/
 /*--Cards Section--*/
 
 .card {
@@ -100,12 +101,48 @@ h1 {
   display: none;
 }
 
-/*--Map--*/
+/*--Map Section--*/
 
 div#map{
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
 }
+.map-title {
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.map-description{    
+    width: 80%;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+}
+
+
+
+
+/*-- Form --*/
+.contact-form {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.form-label-marker {
+    color: red;
+}
+.btn-form {
+    float: left;
+}
+
+
+
+
+
+
+
+
 /*--Footer--*/
 footer {
   width: 100%;
@@ -151,9 +188,7 @@ ul.social li a i {
     color: #fff;
     padding: 0;
 }
-.copyright:hover {
-  color: #bdbebd;
-}
+
 
 
 /*--Media Queries--*
