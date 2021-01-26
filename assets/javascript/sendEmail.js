@@ -8,7 +8,7 @@ function sendMail(contactForm) {
     .then(
         function () {
             Swal.fire(
-            'Good job!',
+            'Thank you for contacting us!',
             'Message sent!',
             'success'
             );
