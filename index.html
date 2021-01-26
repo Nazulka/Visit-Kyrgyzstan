@@ -8,51 +8,34 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-   (function(){
-      emailjs.init("user_X5lcjhj7wOu0WoBwmv1zz");
-      var templateParams = {
-    name: 'Nazee',
-    notes: "I'd like to find out more about ... "
-};
- 
-emailjs.send('Gmail', 'MS2', templateParams)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
-   })();
-</script>
-
     <title>Visit Kyrgyzstan</title>
 </head>
-<body>
 
-<!-- Navigation Bar-->    
-<header> 
+
+<body>
+<!-- Navigation Bar-->  
+<header>  
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-            <div class="container-fluid">                                            
-                <a class="navbar-brand" href="#home"><img src="assets/images/kg-logo.png" alt="Logo in the shape of the map of Kyrgyzstan" title="Logo"></a>                        
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-label="Brand Logo">
-                    <span class="navbar-toggler-icon"></span>
-                </button>                                                                     
-                <div class="collapse navbar-collapse" id="collapse_target">                    
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>                        
-                        <li class="nav-item"><a class="nav-link" href="#discover">Discover</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div> 
-            </div>
+        <div class="container-fluid">                                            
+            <a class="navbar-brand" href="#home"><img src="assets/images/kg-logo.png" alt="Logo in the shape of the map of Kyrgyzstan" title="Logo"></a>                        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-label="Brand Logo">
+                <span class="navbar-toggler-icon"></span>
+            </button>                                                                     
+            <div class="collapse navbar-collapse" id="collapse_target">                    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>                        
+                    <li class="nav-item"><a class="nav-link" href="#discover">Discover</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div> 
+        </div>
     </nav>  
-</header>    
+</header>
 
 
 <!-- Home Page -->
 <!-- Carousel Slide-->
-
 <div id="home">
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
         <div class="carousel-inner">
@@ -98,62 +81,60 @@ emailjs.send('Gmail', 'MS2', templateParams)
             </div>
         </div>
     </div>
-</div>
-
 <!--Cards Section-->
-<div id="discover-cards">
-    <div class="container-fluid">
-        <div class="row pt-5">
-            <div class="col-md-4">
-                <div class="card card-zoom">
-                    <img class="card-img-top img-fluid" src="assets/images/card1.jpg" alt="Ala-Too square in Bishkek">
-                    <div class="card-body">
-                    <h4 class="card-title">Emerging "It" place: Kyrgyzstan</h4>
-                    <p class="card-text">Kyrgyzstan (Кыргызстан) is a nation defined by its natural beauty. Joyously unspoilt mountainscapes, stark craggy ridges and rolling jailoos 
-                        (summer pastures) are brought to life by semi-nomadic, yurt-dwelling shepherds. Add to <span class="dots">...</span><span class="more">this a well-developed network of homestays and visa-free travel, and it's 
-                        easy to see why Kyrgyzstan (officially the Kyrgyz Republic), is the gateway of choice for many travellers in Central Asia.</br>In 2018, the British Backpacker Society ranked Kyrgyzstan as the 
-                        fifth best adventure travel destination on earth, stating that the country was an adventure travel secret that is "bound to get out soon".</span></p>
+    <div id="discover-cards">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <div class="card card-zoom">
+                        <img class="card-img-top img-fluid" src="assets/images/card1.jpg" alt="Ala-Too square in Bishkek">
+                        <div class="card-body">
+                        <h4 class="card-title">Emerging "It" place: Kyrgyzstan</h4>
+                        <p class="card-text">Kyrgyzstan (Кыргызстан) is a nation defined by its natural beauty. Joyously unspoilt mountainscapes, stark craggy ridges and rolling jailoos 
+                            (summer pastures) are brought to life by semi-nomadic, yurt-dwelling shepherds. Add to <span class="dots">...</span><span class="more">this a well-developed network of homestays and visa-free travel, and it's 
+                            easy to see why Kyrgyzstan (officially the Kyrgyz Republic), is the gateway of choice for many travellers in Central Asia.</br>In 2018, the British Backpacker Society ranked Kyrgyzstan as the 
+                            fifth best adventure travel destination on earth, stating that the country was an adventure travel secret that is "bound to get out soon".</span></p>
 
-                    <button type="button" class="btn btn-danger">Read more</button>        
+                        <button type="button" class="btn btn-danger">Read more</button>        
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-zoom">
-                    <img class="card-img-top img-fluid" src="assets/images/card2.jpg" alt="Kyrgyz girl in a national dress">
-                    <div class="card-body">
-                    <h4 class="card-title">Best time to visit</h4>
-                    <p class="card-text">With its tough, continental climate, Kyrgyzstan is very much a seasonal destination.As can be expected in a country where the vast majority of attractions are rural and high altitude, 
-                        the timing of your visit is crucial. Unless travelling to the country for purposes of business or winter <span class="dots">...</span><span class="more">skiing, most visitors tend to come between May 
-                        and October.</br> For those whose interest is primarily in outdoor pursuits, the peak trekking season is a little shorter – between early June and mid- September.</br> The 
-                        period from mid-July to late August is by far the busiest with overseas visitors, partly because of the climate and partly as a result of this being the main European summer holiday season.</br>                          
-                        From October to May, much rural accommodation closes down and the yurts that add such character to the Alpine vistas are stashed away.</span></p>                                 
-                    <button type="button" class="btn btn-danger">Read more</button>                    
+                <div class="col-md-4">
+                    <div class="card card-zoom">
+                        <img class="card-img-top img-fluid" src="assets/images/card2.jpg" alt="Kyrgyz girl in a national dress">
+                        <div class="card-body">
+                        <h4 class="card-title">Best time to visit</h4>
+                        <p class="card-text">With its tough, continental climate, Kyrgyzstan is very much a seasonal destination.As can be expected in a country where the vast majority of attractions are rural and high altitude, 
+                            the timing of your visit is crucial. Unless travelling to the country for purposes of business or winter <span class="dots">...</span><span class="more">skiing, most visitors tend to come between May 
+                            and October.</br> For those whose interest is primarily in outdoor pursuits, the peak trekking season is a little shorter – between early June and mid- September.</br> The 
+                            period from mid-July to late August is by far the busiest with overseas visitors, partly because of the climate and partly as a result of this being the main European summer holiday season.</br>                          
+                            From October to May, much rural accommodation closes down and the yurts that add such character to the Alpine vistas are stashed away.</span></p>                                 
+                        <button type="button" class="btn btn-danger">Read more</button>                    
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-zoom">
-                    <img class="card-img-top img-fluid" src="assets/images/card3.jpg" alt="Traditional flat bread: lepeshki">
-                    <div class="card-body">
-                    <h4 class="card-title">Food and Culture</h4>
-                    <p class="card-text">Traditional Kyrgyz food revolves around mutton and beef, as well as various dairy products. The preparation techniques and major ingredients have been 
-                        strongly influenced by the nation's historically nomadic way of life. Non-Kyrgyz cuisines that are particularly <span class="dots">...</span><span class="more">common and popular in Kyrgyzstan 
-                        include Uyghur, Dungan, Uzbek, and Russian cuisines.</br>
-                        Kyrgyzstan is the only former Soviet Central Asian republic to start out with two official languages, in this case Russian and Kyrgyz. 
-                        Kyrgyzstan has a high literacy rate (99%), and a strong tradition of educating all citizens.</br>                        
-                        Kyrgyz women produce a wide range of textiles, mostly from felt made from the wool of local sheep. Kalpaks are the Kyrgyz national hat, 
-                        also almost always made of felt. Colors and designs are chosen to symbolize Kyrgyz traditions and rural life.</span></p>
-                    <button type="button" class="btn btn-danger">Read more</button>
+                <div class="col-md-4">
+                    <div class="card card-zoom">
+                        <img class="card-img-top img-fluid" src="assets/images/card3.jpg" alt="Traditional flat bread: lepeshki">
+                        <div class="card-body">
+                        <h4 class="card-title">Food and Culture</h4>
+                        <p class="card-text">Traditional Kyrgyz food revolves around mutton and beef, as well as various dairy products. The preparation techniques and major ingredients have been 
+                            strongly influenced by the nation's historically nomadic way of life. Non-Kyrgyz cuisines that are particularly <span class="dots">...</span><span class="more">common and popular in Kyrgyzstan 
+                            include Uyghur, Dungan, Uzbek, and Russian cuisines.</br>
+                            Kyrgyzstan is the only former Soviet Central Asian republic to start out with two official languages, in this case Russian and Kyrgyz. 
+                            Kyrgyzstan has a high literacy rate (99%), and a strong tradition of educating all citizens.</br>                        
+                            Kyrgyz women produce a wide range of textiles, mostly from felt made from the wool of local sheep. Kalpaks are the Kyrgyz national hat, 
+                            also almost always made of felt. Colors and designs are chosen to symbolize Kyrgyz traditions and rural life.</span></p>
+                        <button type="button" class="btn btn-danger">Read more</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!--End of the Cards Section-->
 </div>
 
-
-<!--Explore Section-->
+<!--Explore Page-->
 <!--Map Section-->
 <div id="explore">
     <div class="container-fluid">
@@ -162,17 +143,17 @@ emailjs.send('Gmail', 'MS2', templateParams)
             <h2>Explore these places</h2>
             </div> 
         </div>
-        <div class="row justify-content-center align-items-center">    
-            <div class="col-4 map-description mb-5">
-                <h5>Description of the place</h5>
-                <p class="map-text">Description 
-                </p>
-            </div>
-            <div class="col-8">
+        <div class="row justify-content-center align-items-center">   
+            <div class="col-md-8">
                 <div id="map">
 
 
                 </div>
+            </div>
+            <div class="col-md-4 map-description mb-5">
+                <h5>Description of the place</h5>
+                <p class="map-text">Description 
+                </p>
             </div>
         </div>
     </div>
@@ -181,6 +162,7 @@ emailjs.send('Gmail', 'MS2', templateParams)
 
 
 <!-- Contact Page -->
+<!-- Contact Form -->
 <div id="contact">
     <div class="container-fluid">
         <div class="row">
@@ -193,8 +175,8 @@ emailjs.send('Gmail', 'MS2', templateParams)
         </div>
         <div class="row contact-form justify-content-center align-items-center">
             <div class="col-xs-10 col-md-6">                              
-                <form>                                                    
-                    <div class="form-group ">
+                <form id="contactForm" onsubmit="return sendMail(this);">                                                    
+                    <div class="form-group">
                         <label for="name">Name</label>
                         <span class="form-label-marker">*</span>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required/>
@@ -210,12 +192,12 @@ emailjs.send('Gmail', 'MS2', templateParams)
                         <textarea rows="8" name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">I would like to receive a newsletter</label>
+                        <input class="form-check-input" type="checkbox" value="" id="newsletter">
+                        <label class="form-check-label" for="newsletter">I would like to receive a newsletter</label>
                     </div>  
                     <div class="form-row text-center">     
                         <div class="col py-5">                              
-                        <button type="submit" class="btn btn-form btn-danger">Subscribe</button>            
+                        <button type="submit" id="btnsubmit" class="btn btn-form btn-danger">Submit</button>     
                         </div>                         
                     </div>                                                          
                 </form>                   
@@ -225,16 +207,6 @@ emailjs.send('Gmail', 'MS2', templateParams)
 </div>
 
 
-
-
-
-
-
-
-
-
-
-</div>
 
 <!-- Footer -->
 <div id="footer">
@@ -259,21 +231,26 @@ emailjs.send('Gmail', 'MS2', templateParams)
             </div>    
         </div>               
     </footer>
-
-
-
 </div>
 
 
 
  <!-- js and jQuiery -->
-    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/cards.js"></script>
+    <script src="assets/javascript/sendEmail.js"></script>
+    <script src="assets/javascript/maps.js"></script>
     
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("user_X5lcjhj7wOu0WoBwmv1zz");      
+   })();
+    </script>
+
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3OhaY-w55vnB84C8SohX795zry9ZMGZA&callback=initMap&libraries=&v=weekly" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+    <script src="sweetalert2.all.min.js"></script>
 </body>
 </html>
