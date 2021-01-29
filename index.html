@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="assets/css/style.css">    
     <title>Visit Kyrgyzstan</title>
 </head>
 
@@ -32,6 +31,21 @@
         </div>
     </nav>  
 </header>
+
+<!-- Covid-19-->
+<div class="container-fluid">
+    <div class="row mt-5 pt-5 pb-0">
+        <div class="col-12 covid-alert">
+            <p>Covid-19 related travel and closure updates - 
+                <a href="https://www.gov.uk/foreign-travel-advice/kyrgyzstan" class="gov-uk" target="_blank">Learn more</a>
+                <button class="notification-close" aria-hidden="true">x</button>
+                </br>
+            </p>
+        </div>
+        
+    </div>
+
+</div>
 
 
 <!-- Home Page -->
@@ -153,7 +167,7 @@
         </div>
         <div class="row justify-content-center align-items-center">               
             <div class="col-md-4 map-description mb-5">
-                <div role="img" class="map-img" src="assets/images/map-jeti-oguz.jpg" alt="Jeti-Oguz mountains in Northern Issuk-Kul"></div>
+                <!--<div role="img" class="map-img" src="assets/images/map-jeti-oguz.jpg" alt="Jeti-Oguz mountains in Northern Issuk-Kul"></div> -->
                 <h5>Description of the place</h5>
                 <p class="infowindow-content">Description 
                 </p>
@@ -248,10 +262,10 @@
  <!-- js and jQuiery -->
     <script src="assets/javascript/cards.js"></script>
     <script src="assets/javascript/sendEmail.js"></script>
-    <script src="assets/javascript/maps.js"></script>
-    
+    <script src="assets/javascript/maps.js"></script>    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
-   (function(){
+   (function() {
       emailjs.init("user_X5lcjhj7wOu0WoBwmv1zz");      
    })();
     </script>
@@ -262,6 +276,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    
 </body>
 </html>
