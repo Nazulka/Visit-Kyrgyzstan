@@ -47,7 +47,7 @@ function initMap(){
         ];
 
         //Loop through markers
-        for(let i = 0; i < markers.length; i++) {
+        for(var i = 0; i < markers.length; i++) {
             // Add marker
             addMarker(markers[i]);
         }
@@ -69,7 +69,14 @@ function initMap(){
             google.maps.event.addListener(map, 'click', function() {
                 infowindow.close();
                 });
-            });       
+            }); 
+            
+            google.maps.event.addListener(marker, 'click', (function(i) {
+            return function() {
+            document.getElementById("sidebar").innerHTML = markers[i].info;
+                }
+            })(i));
+
         }        
     }  
 }

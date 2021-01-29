@@ -44,10 +44,13 @@ body {
     background-color: rgba(248, 56, 56, 0.979);
     color: #1f1e1e;
     vertical-align: middle;    
-
+    
 }
 .covid-alert p {
     display: block;
+}
+.covid-alert a {
+    text-decoration: none;
 }
 .gov-uk {
     color: #fff;
@@ -103,7 +106,14 @@ h1 {
 .card-text {
     padding-top: 0.7rem;
 }
-
+.btn-danger:hover {
+    color: red!important; 
+    background-color: #fff;   
+    transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
 .more {
   display: none;
 }
@@ -130,6 +140,7 @@ div#map{
     padding-right: 1rem;
     padding-left: 1.5rem;
     padding-top: 3rem;
+    text-align: center;
 }
 
 
