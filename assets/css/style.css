@@ -22,12 +22,9 @@ body {
   font-weight: 400;
   letter-spacing: .06rem;
 }
-
 .navbar-nav li {
-  padding-right: 0.5rem;
- 
+  padding-right: 0.5rem; 
 }
-
 .navbar-brand img {
   height: 2.2rem;
   padding-left: 0.5rem;
@@ -39,21 +36,20 @@ body {
 }
 /*-- Covid-alert --*/
 .covid-alert {
-    height: 5rem;
     text-align: center;
-    background-color: rgba(248, 56, 56, 0.979);
-    color: #1f1e1e;
-    vertical-align: middle;    
-    
+    background-color: rgba(248, 43, 43, 0.979)
 }
 .covid-alert p {
+    padding-top: 0.6rem;    
     display: block;
-}
-.covid-alert a {
-    text-decoration: none;
-}
-.gov-uk {
     color: #fff;
+}
+.covid-alert a {        
+    color: #2c2c2c;
+}
+.covid-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
     
 /*-- Carousel Slide ---*/
@@ -66,13 +62,16 @@ body {
 }
 /*-- Discover Page--*/
 /*--About Section--*/
-h1 {
-    margin-top: 1rem;
-    padding: 1.4rem;
+h1 {    
+   
     letter-spacing: .08rem;    
 } 
+.about-country-heading {
+    max-width: 1200px;
+    
+}
 .lead {
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -129,18 +128,23 @@ h1 {
 /*--Map Section--*/
 
 div#map{
-    min-height: 600px;
+    min-height: 650px;
     width: 100%;
 }
 
 .map-description{    
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    min-height: 500px;
+    min-height: 650px;
     padding-right: 1rem;
     padding-left: 1.5rem;
     padding-top: 3rem;
     text-align: center;
+}
+.sidebar {
+    height: 650px;
+    width: 100%;
+    padding-left: 10px;
 }
 
 
