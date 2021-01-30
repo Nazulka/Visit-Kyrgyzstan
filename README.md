@@ -1,9 +1,6 @@
 # Visit Kyrgyzstan
 ___
 
-
-
-
 ____
 ## Demo 
 

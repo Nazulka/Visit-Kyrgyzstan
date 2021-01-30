@@ -4,7 +4,8 @@ var cards = document.querySelector('#discover-cards');
 
 cards.addEventListener('click', function(e) {
   var target = e.target;
-  if (target.classList.contains('btn')) {
+ 
+  if (target.classList.contains('btn')) {       
     var cardBody = target.parentNode;
     var open = target.dataset.open === 'true';
     target.dataset.open = !open;
@@ -15,6 +16,6 @@ cards.addEventListener('click', function(e) {
       target.innerText = 'Read less';
       cardBody.classList.add('open');
     }
-  }
+  }  
 });
 

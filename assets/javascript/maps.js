@@ -10,39 +10,50 @@ function initMap(){
     const map = new 
     google.maps.Map(document.getElementById("map"), options);
 
+
     // Create an Array of Markers
         const markers =[
             {
                 coords: {lat:42.4260911, lng:78.219132}, //Jeti-Oguz Gorge    
-                content: '<h5>Jeti-Oguz Gorge</h5>'
+                content: '<h5>Jeti-Oguz Gorge</h5>',
+                info: '<h5>Jeti-Oguz Gorge</h5>'
             },
             {
                 coords: {lat:42.6448, lng:74.4803}, // Ala-Archa National Park
-                content: '<h5>Ala-Archa National Park</h5>'
+                content: '<h5>Ala-Archa National Park</h5>',
+                info: '<h5>Ala-Archa National Park</h5>'
             },
             {
                 coords: {lat:41.8339, lng:75.1312}, // Song-Kul Lake
-                content: '<h5>Song-Kul Lake</h5>'
+                content: '<h5>Song-Kul Lake</h5>',
+                info: '<h5>Song-Kul Lake</h5>'
             },
             {
                 coords: {lat:42.3732, lng:78.6116}, // Altin-Arashan valley
-                content: '<h5>Altin-Arashan valley</h5>'
+                content: '<h5>Altin-Arashan valley</h5>',
+                info: '<h5>Altin-Arashan valley</h5>'
             },
             {
                 coords: {lat:42.7464, lng:75.2504}, // Burana Tower
-                content: '<h5>Altin-Arashan valley</h5>' 
+                content: '<h5>Altin-Arashan valley</h5>',
+                info: '<h5>Altin-Arashan valley</h5>'
             },
             {
                 coords: {lat:42.8746, lng:74.5698}, // Bishkek
-                content: '<h5>Bishkek</h5>' 
+                content: '<h5>Bishkek</h5>',
+                info: '<h5>Bishkek</h5>'
             },
             {
                 coords: {lat:40.8308, lng:75.2986}, // Tash-Rabat Karavanserai
-                content: '<h5>Tash-Rabat Karavanserai</h5>'
+                content: '<h5>Tash-Rabat Karavanserai</h5>',
+                info: '<h5>Tash-Rabat Karavanserai</h5>'
             },
             {
                 coords: {lat:40.5140, lng:72.8161}, // Osh
-                content: '<h5>Osh</h5>'
+                content: '<h5>Osh</h5>',
+                info: '<h5>Osh</h5>'
+            
+
             }  
         ];
 
@@ -51,6 +62,9 @@ function initMap(){
             // Add marker
             addMarker(markers[i]);
         }
+
+
+
       
     // Add marker Function
     function addMarker(props) {
@@ -64,16 +78,19 @@ function initMap(){
                 content:props.content
             });
 
-            marker.addListener('click', function(){
+            marker.addListener('mouseover', function(){
                 infowindow.open(map, marker);
-            google.maps.event.addListener(map, 'click', function() {
+             //   document.getElementById("sidebar").innerHTML = marker.info;
+    
+            google.maps.event.addListener(marker, 'mouseout', function() {
                 infowindow.close();
                 });
             }); 
             
-            google.maps.event.addListener(marker, 'click', (function(i) {
+           google.maps.event.addListener(marker, 'click', (function(i) {
+    
             return function() {
-            document.getElementById("sidebar").innerHTML = markers[i].info;
+           document.getElementById("sidebar").innerHTML = markers[i].info;
                 }
             })(i));
 
