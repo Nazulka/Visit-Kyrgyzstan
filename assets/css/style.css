@@ -135,7 +135,7 @@ div#map{
 .map-description{    
     width: 90%;
     margin: 0 auto;
-    min-height: 650px;
+    height: 650px;
     padding-right: 1rem;
     padding-left: 1.5rem;
     padding-top: 3rem;
@@ -147,6 +147,9 @@ div#map{
     padding-left: 10px;
 }
 
+.gm-style-iw > button {
+  display: none !important;
+}
 
 /*-- Form --*/
 .contact-form {

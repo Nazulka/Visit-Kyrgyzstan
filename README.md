@@ -9,8 +9,8 @@ ____
 ___
 ## About
 This website aims to promote and advance Kyrgyzstan as a travel destination on the international market.
-It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture.
-It aspires to provide you with the necessary inspiration to start planning a visit for next summer!
+It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
+and provides you with the necessary inspiration to start planning a visit for next summer!
 
 ___
 ___
