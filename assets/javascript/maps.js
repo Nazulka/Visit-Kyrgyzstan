@@ -3,7 +3,7 @@
 function initMap(){
     //Map options
     const options = {
-        zoom: 7,
+        zoom: 6,
         center: {lat:41.8339, lng:75.1312}
     }
     // New map
@@ -100,8 +100,6 @@ function initMap(){
             addMarker(markers[i]);
         }
 
-
-
       
     // Add marker Function
     function addMarker(props) {
@@ -114,16 +112,17 @@ function initMap(){
             const infowindow = new google.maps.InfoWindow({
                 content:props.content
             });
-
+            
+            // Marker Infowindow appears on mouseover and disappears on mouseout 
             marker.addListener('mouseover', function(){
                 infowindow.open(map, marker);
-             //   document.getElementById("sidebar").innerHTML = marker.info;
-    
+                
             google.maps.event.addListener(marker, 'mouseout', function() {
                 infowindow.close();
                 });
             }); 
             
+            // Infowindow shows in "sidebar" section when marker is clicked
            google.maps.event.addListener(marker, 'click', (function(i) {
     
             return function() {
