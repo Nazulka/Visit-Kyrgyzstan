@@ -15,33 +15,27 @@ and provides you with the necessary inspiration to start planning a visit for ne
 ___
 ___
 ## UX
-
-
 ___
 ___
 ### **This website will appeal to:**
 
-* dfs
-    * jvgj
+* First time visitors
+    * m
 
-* xdcvz
+* Returning visitors
 
 
 ### Wireframes
 
-* Desktop Version
-* Tablet Version
-* Mobile Version
-
-
-
+* [Desktop Version](assets/wireframes/MS2-desktop.png)
+* [Tablet and mobile Version](assets/wireframes/MS2-tablet-mobile.png)
 
 ## Features
 ___
 ___
 
 ### Existing Features
-
+* This website built as single page, mobile first website
 
 
 ### Future Features
@@ -58,7 +52,7 @@ ___
     * JavaScript
 
 * Frameworks, Libraries and Programs Used
-    * 
+    * Bootstrap v4.2.1 -
 
 
 
