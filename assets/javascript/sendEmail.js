@@ -20,7 +20,7 @@ function sendMail(contactForm) {
             'Something went wrong!',
             'error'
             );
-        })      
+        });      
                 
     document.getElementById("contactForm").reset();
     return false;    

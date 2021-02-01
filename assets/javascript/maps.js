@@ -5,7 +5,7 @@ function initMap(){
     const options = {
         zoom: 6,
         center: {lat:41.8339, lng:75.1312}
-    }
+    };
     // New map
     const map = new 
     google.maps.Map(document.getElementById("map"), options);
@@ -127,7 +127,7 @@ function initMap(){
     
             return function() {
            document.getElementById("sidebar").innerHTML = markers[i].info;
-                }
+                };
             })(i));
 
         }        
