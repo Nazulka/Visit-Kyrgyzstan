@@ -8,21 +8,26 @@ ____
 ____
 ___
 ## About
-This website aims to promote and advance Kyrgyzstan as a travel destination on the international market.
+___
+___
+This website appeals to a large demographic of prospective visitors and aims to promote and advance Kyrgyzstan as a travel destination on the international market.
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
 and provides you with the necessary inspiration to start planning a visit for next summer!
 
-___
-___
+
 ## UX
 ___
 ___
 ### **This website will appeal to:**
 
 * First time visitors
-    * m
+    * I want to understand easily the main purpose of the website.
+    * 
 
 * Returning visitors
+
+
+### Design
 
 
 ### Wireframes
@@ -35,10 +40,79 @@ ___
 ___
 
 ### Existing Features
+
 * This website is a single page website that contains of one html page - index.html, that consists of four sections: Home, Discover, Explore and Contact.
 To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
 The content is split into small chunks and is clean and comprehensible. 
 It aims to make the experience more continuous, intuitive and fluid for the users. It is easy for users to identify the beginning, middle and the end of the page.
+
+* _**Header**_
+    * Header - responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.  
+    It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website. 
+    * Navigation bar includes a brand logo and links to the four sections of the website: Home, Discover, Explore and Contact.
+    * Navigation links are collapsed in small screen sizes into a hamburger menu and from medium size screens and larger, expand into a full size menu bar.
+    * Brand logo serves as a Home page link, in addition to the Home link in the navbar. It is particularly convinient for users accessing the website on smaller screen devices to get 
+    back to the Home page without having to use the hamburger menu.
+    * All navigation links change color dark grey on hover and the current page's link stays "active", so the users can easily identify the page they are on.
+
+* _**Home**_
+    * A temporary Covid alert banner has been added to the top of the Home Page, to help users find out latest information on the situation in Kyrgyzstan as 
+    soon as they land on the website. "Learn more" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens in a tew tab.
+    The red background color has been chosen to highlight the importance of the section and to draw attention. 
+    * Home page consists of a Bootstrap image carousel and cycles through a series of images, that showcase the natural beauty of Kyrgyzstan.
+    The image carousel allows 5 seconds delay between automatically cycling the images and includes previous / next controls for users convenience. 
+
+* _**Discover** _
+    * This page consists of a heading, a text paragraph and Bootstrap 3 cards section. 
+    Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column Bootstrap card section. 
+    * Each card consists of an image to visually support the content of the section and is followed by text. Images zoom out on hover for added user interactivity. 
+    * On the bottom of the section there are "Read more" buttons which hide extra contents of the paragraphs and show the hidden content once user clicks on the button. 
+    It allows to keep the page clean and neat. Once clicked, the buttons' inner text change to "Read Less", which user can click again to collapse the content. 
+
+
+* _**Explore**_
+    * Explore page consists of a heading, a sidebar and a map elements. The sidebar section contains a placeholder heading and a description text for when the page is loaded.
+    * The map section was designed using Google Maps API and focused on the map of Kyrgyzstan. It also contains markers to identify places of interest for users. 
+    * Infowindow with the name of the location appears on mouseover the markers and disappears on mouseout. This was desined to avoid clutter and increase visibility of the elements of the map. 
+    If users click on a marker, a full information, including an image, name and description of the place appear in the sidebar section. 
+
+
+
+* _**Contact**_
+    * This page consists of a heading, paragraph and a contact form. There are three fields in the form: Name (required), 
+    Email (required) and Message (optional), as well as a checkbox and a "Submit" button. All fields were carefully selected to make the form look simple to use and informal in order to appeal to a wider pool of users. 
+    "I would like to receive a newsletter" checkbox allows users to subscribe for a newsletter.
+    * The form has been connected to EmailJS and allows users to send emails directly to me using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
+    of the form, users will see a SweetAlert2 custom popup box to inform them if it has been successful / failed.
+
+
+* _**Footer**_
+    * Footer is designed using Bootstrap and is located on the bottom of the page. It takes up the whole width of the screen on all devices. 
+    * The social media icons are placed in the middle of the bar and change color on hover to let the users know they are clickable. Icons are linked to the external social media websites and open in new tabs.
+    * Copyright info is placed underneath the social media icons. 
+
+
+### Future Features
+
+* To add Itinerary Examples to give prospective visitors an idea of where can they go what can they do on their next holiday.
+* To add a Travel Blog to the website that could also be posted on the website's social media pages. 
+Some of the ideas for the blog:
+    * Advice for first-time travellers
+    * What to pack when you're going on a trip
+    * Tips for families with young children
+    * Top 10 must see places in Kyrgyzstan
+* To integrate Customer Reviews section to the website, as this would enchance customers' confidence in using the website.
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Future Features
@@ -64,10 +138,11 @@ ___
     * **Balsamiq** - to create a mockup to allow me to plan the layout and content of the website.
     * **[Tinypng.com](https://tinypng.com/)** - to compress and optimise the images used for this website.
     * **[Font awesome](https://fontawesome.com/)** - to add Font Awesome icons to the footer section.
+    * ** [Adobe Photoshop Express](https://photoshop.adobe.com/) - to resize some of the images used for the map section of the website.
     * **Google Fonts** - Roboto font has been used throughout the website.
     * **Google maps API** - used to embed Google Maps into the website, to provide users with the places information.
-
-
+    * **EamilJS API** - to create an email template and enable users to send emails directly without useing the server.
+    * **Sweetalert2** - a beautiful modal window, used to add an interactive status confirmation (success / fail) when users submit a form on the website.
 
 Testing
 ___
