@@ -3,8 +3,7 @@ ___
 ___
 ___
 ## Demo 
-
-
+Live Demo [here :point_left:]()
 ____
 ___
 ## About
@@ -21,13 +20,35 @@ ___
 ### **This website will appeal to:**
 
 * First time visitors
-    * I want to understand easily the main purpose of the website.
-    * 
+    * I want to understand easily why should I visit the country 
+    * Get the exact feeling and experience the site wants to convey (the essence of the country)
+    * I want to have access to all the information I need to plan my trip
+    * I want to find out when is the best time to visit Kyrgyzstan
+    * I want to see large compelling images of picturesque views and beautiful landscapes
+    * I want to have straitforward travel information
+    * I want to read more about the sections I'm interested in
+    * I want to get inspiration and help to simplify the travel process
+    * I want to see locations of the important places on the map
+    * I want to see high quality photography and a brief summary of the important locations
+    * I want to take action and be able to get in touch for more details
+    * I want to use interactive elements of the website
 
 * Returning visitors
+    * I want to have a virtual experience to explore Kyrgyzstan from my computer
+    * I want to be able to choose a highlighted location spot and explore it from the comfort of my own home
+    * I can use the easily accessible simple navigation bar to select the section of the website that I need
+    * I want to see beautiful high quality images of new locations I could visit in the future
+    * I want to see new interesting content 
+    * User-friendly experience to help me plan my next trip
+    * I can click the featured call to action to learn more information or give feedback
+    * Homepage is optimised so visitors know what to expect
+    * Effective website - a simple way to plan a trip
+
 
 
 ### Design
+The site is designed as a one page website with simple easy navigation bar. 
+It focuses on the country's natural beauty, minimising distractions
 
 
 ### Wireframes
@@ -38,7 +59,6 @@ ___
 ## Features
 ___
 ___
-
 ### Existing Features
 
 This website is a single page website that contains of one html page - index.html, that consists of four sections: Home, Discover, Explore and Contact.
@@ -132,12 +152,13 @@ which is compatible with all modern browsers. The components used: navigation, b
 ___
 ___
 ### Code Validity
-HTML Markup Validation Service - [No errors or warnings to show](https://validator.w3.org/)
-CSS Validation Service - [No Error Found](https://jigsaw.w3.org/css-validator/)
-JavaScript Code Quality Tool - [JSHint](https://jshint.com/) 
+___
+* HTML Markup Validation Service - [Pass](https://validator.w3.org/)
+* CSS Validation Service - [Pass](https://jigsaw.w3.org/css-validator/)
+* JavaScript Code Quality Tool - [JSHint](https://jshint.com/) 
 
 ### Testing User Stories from UX section of this file 
-
+___
 #### First Time Visitors' Goals 
 
 
@@ -147,6 +168,23 @@ JavaScript Code Quality Tool - [JSHint](https://jshint.com/)
 
 
 ### Further Testing
+___
+#### Functionality Testing
+* Navigation Bar
+* Image Carousel
+* Cards Section
+* Map Section
+* Contact Form
+* Footer
+
+#### Usability Testing
+
+#### Performance Testing
+
+#### Compatibility Testing
+
+### Known Bugs
+* There are no known bugs at the time of submitting this project.
 
 
 ## Version Control
@@ -162,10 +200,15 @@ ___
 ### Code
 
 ### Content
-* 
-
+___
+* Content for "Discover Kyrgyzstan" section has been taken from [interpidtravel.com](https://www.intrepidtravel.com/uk/kyrgyzstan).
+* Cards Section content has been taken from [intrepidtravel.com](https://www.intrepidtravel.com/uk/kyrgyzstan),
+[bradtguides.com](https://www.bradtguides.com/destinations/asia/kyrgyzstan/when-and-where-to-visit/) and [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan) websites respectively.
+* Content for the placeholder "World Nomad Games" section has been inspired by [World Nomad Games official website](http://worldnomadgames.com/en/page/About-the-WNG/).
+* All the content for Map Location Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan).
 
 ### Media
+___
 The images used in this website were obtained from free stock images website [Unsplash](https://unsplash.com/) as well as licenced images from royalty-free stock image site [Adobe Stock](https://stock.adobe.com/uk/) 
 and compressed using [TinyPNG](https://tinypng.com/).
 * Carousel images sources:
@@ -175,12 +218,31 @@ and compressed using [TinyPNG](https://tinypng.com/).
     * Image 4 is from [Adobe Stock](https://stock.adobe.com/uk/images/mountain-climber-goes-around-glacier-crack-on-the-background-of-tengri-tau-range-central-tian-shan-kazakhstan-kyrgyzstan-china/398761416)
     * Image 5 is from Unsplash by [Bobby Rahe](https://unsplash.com/photos/gkf1w-Y_Ub0)
 
-* Card Section
-    * All three images for this section 
+* Cards Section
+    * All images are from Adobe Stock and can be found here: 
+        * ["Emerging 'It' place; Kyrgyzstan"](https://stock.adobe.com/uk/images/bishkek-ala-too-square-13/249492203)
+        * ["Best time to visit"](https://stock.adobe.com/uk/images/beautiful-kazakh-woman-in-national-costume/175310996)
+        * ["Food and Culture"](https://stock.adobe.com/uk/images/nice-typical-good-bread-in-kyrgyzstan/197397213).
+
+* Images used for "Explore these places" section:    
+    * An image for a placeholder "World Nomad Games" section is from [Adobe Stock](https://stock.adobe.com/uk/images/nomad-men-wrestling-on-horseback-traditional-game-of-er-enish/223414147)
+    * Images for map location markers: 
+        * [Altin-Arashan Valley](https://unsplash.com/photos/Fp89mUyzBfc) 
+        * [Jeti-Oguz Gorge](https://stock.adobe.com/uk/images/seven-bulls-jeti-ogyz-valley-red-sandstone-formation-in-kyrgyzstan/339842818)
+        * [Issyk-Kul Lake](https://unsplash.com/photos/u5dpDkGjnKQ)
+        * [Burana Tower](https://stock.adobe.com/uk/images/old-burana-tower-located-on-famous-silk-road-kyrgyzstan/53481686)
+        * [Bishkek](https://unsplash.com/photos/Q-Uegh7jUkM)
+        * [Ala-Archa National Park](https://unsplash.com/photos/D-lX0oYP5To)
+        * [Song-Kul Lake](https://unsplash.com/photos/8qv0BPskgoA)
+        * [Tash-Rabat Karavanserai](https://stock.adobe.com/uk/images/the-yurt-village-in-front-of-karakul-lake-in-xinjiang-uighur-autonomous-region-of-china-is-the-highest-lake-of-the-pamir-plateau-with-muztagh-ata-peak-of-the-kunlun-mountains-in-the-background/190659378)
+        * [Osh](https://stock.adobe.com/uk/images/view-over-osh-in-sunset-kyrgyzstan/183729722)
+        
+
 
 ### Acknowledgements
+___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
-* CI Tutors and Slack Community for help and answering all my questions. 
+* CI Tutors and Slack Community for help and support. 
 * Bootstrap documentation has been used to create this responsive and compatible with all modern browsers website. The components used include: Buttons, Card, Carousel and Navbar.
 * Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map markers can be added easily in the future. 
 * I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS.
