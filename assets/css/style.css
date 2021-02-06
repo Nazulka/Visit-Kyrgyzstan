@@ -250,7 +250,6 @@ ul.social li a i {
 /*-- Navbar ---*/
   .navbar {
     font-size: 1rem;
-    font-weight: 300;
     letter-spacing: .05rem;
   }
 
@@ -267,8 +266,6 @@ ul.social li a i {
   body p {
     line-height: 1.6;
   }
-
-
 
 /*--Footer--*/
   .footer-items {

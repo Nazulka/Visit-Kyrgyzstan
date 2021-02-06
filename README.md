@@ -13,50 +13,54 @@ This website aims to promote and advance Kyrgyzstan as a travel destination on t
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
 and provides you with the necessary inspiration to start planning a visit for next summer!
 
+Table of Contents 
+
+
+
+* Homepage is optimised so visitors know what to expect
+
 
 ## UX
 ___
 ___
 ### **This website will appeal to:**
 
-* First time visitors
-    * I want to understand easily why should I visit the country 
-    * Get the exact feeling and experience the site wants to convey (the essence of the country)
-    * I want to have access to all the information I need to plan my trip
-    * I want to find out when is the best time to visit Kyrgyzstan
-    * I want to see large compelling images of picturesque views and beautiful landscapes
-    * I want to have straitforward travel information
+* **People with no travel plans in mind (yet) or deciding where to go:**
+    * I want to get inspiration for my next travel exerience
+    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the important locations
+    * I want to be able to choose a highlighted location spot and explore it from the comfort of my own home    
     * I want to read more about the sections I'm interested in
-    * I want to get inspiration and help to simplify the travel process
-    * I want to see locations of the important places on the map
-    * I want to see high quality photography and a brief summary of the important locations
     * I want to take action and be able to get in touch for more details
     * I want to use interactive elements of the website
 
-* Returning visitors
-    * I want to have a virtual experience to explore Kyrgyzstan from my computer
-    * I want to be able to choose a highlighted location spot and explore it from the comfort of my own home
+* **People making their first or secondary bookings**
     * I can use the easily accessible simple navigation bar to select the section of the website that I need
+    * I want to find out when is the best time to visit Kyrgyzstan
     * I want to see beautiful high quality images of new locations I could visit in the future
     * I want to see new interesting content 
-    * User-friendly experience to help me plan my next trip
+    * I want to have access to all necessary travel information I need to plan my trip
     * I can click the featured call to action to learn more information or give feedback
-    * Homepage is optimised so visitors know what to expect
-    * Effective website - a simple way to plan a trip
-
+    
+* **People who are travelling in the area**
+    * I want to find exiting places to visit locally
+    * I want to use the map to help me make quick decisions what places to visit
+    * To get in touch if I have any questions or queries 
 
 ## Strategy
-My goal in designing this website was to ensure more continuous, intuitive and fluid experience for the users. 
-The content is split into small chunks and is clean and comprehensible. 
+My goals for this project are:
+* To provide a virtual experience to explore Kyrgyzstan to all potential travellers
+* To promote and convey the essence of the country
+* To enable easy access to the information needed to plan their trip
+* To showcase the best places to visit
+* To answer all questions and queries sent via the website and provide more information when requested
 
 ## Scope
-
-
+To create a website that ensures continuous, intuitive and fluid experience for the users. 
+The content is split into small chunks that are clean and comprehensible to help users to plan their next trip.
 
 ## Structure
 This website is a single page website that consists of four sections: Home, Discover, Explore and Contact.
 To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
-
 
 ### Skeleton 
 
@@ -65,7 +69,7 @@ To navigate to different destinations on the website, users need to click naviga
 
 ### Surface
 Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to explore Kyrgyzstan 
-from their computers, whether they are looking for a guide to a specific location or just browsing for next trip inspiration.
+from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 ## Technologies Used 
 ___
@@ -235,7 +239,7 @@ ___
 * Cards Section content has been taken from [intrepidtravel.com](https://www.intrepidtravel.com/uk/kyrgyzstan),
 [bradtguides.com](https://www.bradtguides.com/destinations/asia/kyrgyzstan/when-and-where-to-visit/) and [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan) websites respectively.
 * Content for the placeholder "World Nomad Games" section has been inspired by [World Nomad Games official website](http://worldnomadgames.com/en/page/About-the-WNG/).
-* All the content for Map Location Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
+* All the content for Map Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
 * Inspiration on creating a travel website [here](https://www.crazyegg.com/blog/example-travel-websites/).
 
 ### Media
@@ -268,8 +272,6 @@ and compressed using [TinyPNG](https://tinypng.com/).
         * [Tash-Rabat Karavanserai](https://stock.adobe.com/uk/images/the-yurt-village-in-front-of-karakul-lake-in-xinjiang-uighur-autonomous-region-of-china-is-the-highest-lake-of-the-pamir-plateau-with-muztagh-ata-peak-of-the-kunlun-mountains-in-the-background/190659378)
         * [Osh](https://stock.adobe.com/uk/images/view-over-osh-in-sunset-kyrgyzstan/183729722)
         
-
-
 ### Acknowledgements
 ___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
