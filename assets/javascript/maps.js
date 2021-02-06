@@ -84,10 +84,10 @@ function initMap(){
                 It is the oldest city in the country, estimated to be more than 3000 years old. Osh has an important outdoor bazaar which has been taking place on the same spot for the past 2000 years.</p>`
             },
             {
-                coords: {lat:42.6503, lng:77.0852}, // Issuk-Kul
-                content: '<h4>Issyk-Kul</h4>',
+                coords: {lat:42.6503, lng:77.0852}, // Issuk-Kul Lake
+                content: '<h4>Issyk-Kul Lake</h4>',
                 info: `<img class="img-fluid" src="assets/images/issyk-kul.jpg" alt="Issyk-Kul Lake - The Pearl of Tian-Shan"></br>
-                <h4 class="py-4">Issyk-Kul</h4>
+                <h4 class="py-4">Issyk-Kul Lake</h4>
                 <p>Issyk-Kul is an endorheic lake in the Northern Tian Shan mountains in Eastern Kyrgyzstan. It is the seventh deepest lake in the world 
                 and the second largest saline lake after the Caspian Sea. Issyk-Kul means "warm lake" in the Kyrgyz language; although it is surrounded by snow-capped peaks, 
                 it never freezes.</p>`

@@ -1,3 +1,5 @@
+// 
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "MS2", {
         "from_name": contactForm.name.value,
@@ -21,7 +23,8 @@ function sendMail(contactForm) {
             'error'
             );
         });      
-                
+         
+    // Reset the form to clear the input areas    
     document.getElementById("contactForm").reset();
     return false;    
 }                 

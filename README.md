@@ -45,26 +45,58 @@ ___
     * Effective website - a simple way to plan a trip
 
 
+## Strategy
+My goal in designing this website was to ensure more continuous, intuitive and fluid experience for the users. 
+The content is split into small chunks and is clean and comprehensible. 
 
-### Design
-The site is designed as a one page website with simple easy navigation bar. 
-It focuses on the country's natural beauty, minimising distractions
+## Scope
 
 
-### Wireframes
 
-* [Desktop Version](assets/wireframes/MS2-desktop.png)
-* [Tablet and mobile Version](assets/wireframes/MS2-tablet-mobile.png)
+## Structure
+This website is a single page website that consists of four sections: Home, Discover, Explore and Contact.
+To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
+
+
+### Skeleton 
+
+* [Desktop wireframes](assets/wireframes/MS2-desktop.png)
+* [Tablet and mobile wireframes](assets/wireframes/MS2-tablet-mobile.png)
+
+### Surface
+Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to explore Kyrgyzstan 
+from their computers, whether they are looking for a guide to a specific location or just browsing for next trip inspiration.
+
+## Technologies Used 
+___
+___
+### Languages Used
+* HTML5
+* CSS3
+* JavaScript
+
+### Frameworks, Libraries and Programs Used
+
+* **[Bootstrap v4.2.1](https://getbootstrap.com/docs/4.2/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
+which is compatible with all modern browsers. The components used: navigation, buttons, cards and image-carousel. 
+* **jQuery and Popper.js** plugins - required to ensure proper rendering of the Bootstrap components listed above.  
+* **Git** - used for version control and to keep track of the changes made to the repository.
+* **Gitpod** - open source development platform, allowed me to add, commit and push files to GitHub.
+* **GitHub** - used as a hosting service for version control and future collaborations.
+* **Balsamiq** - to create a mockup to allow me to plan the layout and content of the website.
+* **[Tinypng.com](https://tinypng.com/)** - to compress and optimise the images used for this website.
+* **[Font awesome](https://fontawesome.com/)** - to add Font Awesome icons to the footer section.
+* **[Adobe Photoshop Express](https://photoshop.adobe.com/)** - to resize some of the images used for the map section of the website.
+* **Google Fonts** - Roboto font has been used throughout the website.
+* **Google maps API** - used to embed Google Maps into the website, to provide users with the locations information.
+* **EmailJS API** - to create an email template and enable users to send emails directly without useing the server.
+* **SweetAlert2** - an interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
+
 
 ## Features
 ___
 ___
 ### Existing Features
-
-This website is a single page website that contains of one html page - index.html, that consists of four sections: Home, Discover, Explore and Contact.
-To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
-The content is split into small chunks and is clean and comprehensible. 
-It aims to make the experience more continuous, intuitive and fluid for the users. It is easy for users to identify the beginning, middle and the end of the page.
 
 * _**Header**_
     * Header - responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.  
@@ -113,7 +145,8 @@ It aims to make the experience more continuous, intuitive and fluid for the user
 
 ### Future Features
 
-* To add _**Itinerary Examples**_ to give prospective visitors an idea of where can they go what can they do on their next holiday.
+* To add _**Itinerary Examples**_ to give prospective visitors an idea of where can they go what can they do on their next visit.
+* To add _**Hotel Recommendations**_ - web links to hotel and booking sites.
 * To add a _**Travel Blog**_ to the website that could also be posted on the website's social media pages. 
 Some of the ideas for the blog:
     * Advice for first-time travellers
@@ -122,31 +155,6 @@ Some of the ideas for the blog:
     * Top 10 must see places in Kyrgyzstan
 * To integrate _**Customer Reviews**_ section to the website, as this would enchance customers' confidence in using the website.
 
-
-## Technologies Used 
-___
-___
-### Languages Used
-* HTML5
-* CSS3
-* JavaScript
-
-### Frameworks, Libraries and Programs Used
-
-* **[Bootstrap v4.2.1](https://getbootstrap.com/docs/4.2/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
-which is compatible with all modern browsers. The components used: navigation, buttons, cards and image-carousel. 
-* **jQuery and Popper.js** plugins - required to ensure proper rendering of the Bootstrap components listed above.  
-* **Git** - used for version control and to keep track of the changes made to the repository.
-* **Gitpod** - open source development platform, allowed me to add, commit and push files to GitHub.
-* **GitHub** - used as a hosting service for version control and future collaborations.
-* **Balsamiq** - to create a mockup to allow me to plan the layout and content of the website.
-* **[Tinypng.com](https://tinypng.com/)** - to compress and optimise the images used for this website.
-* **[Font awesome](https://fontawesome.com/)** - to add Font Awesome icons to the footer section.
-* **[Adobe Photoshop Express](https://photoshop.adobe.com/)** - to resize some of the images used for the map section of the website.
-* **Google Fonts** - Roboto font has been used throughout the website.
-* **Google maps API** - used to embed Google Maps into the website, to provide users with the locations information.
-* **EmailJS API** - to create an email template and enable users to send emails directly without useing the server.
-* **SweetAlert2** - an interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
 ## Testing
 ___
@@ -178,26 +186,48 @@ ___
 * Footer
 
 #### Usability Testing
+Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that 
+the website was simple, engaging and user-friendly at the same time. They were able to intuitively use the interactive elements of the website, find the information they were looking for 
+and easily understand the purpose of the website.
 
 #### Performance Testing
 
 #### Compatibility Testing
 
-### Known Bugs
+#### Known Bugs
 * There are no known bugs at the time of submitting this project.
 
-
-## Version Control
-* 
+#### Version Control
+* Git is used for version control. 
+* It was published using GitHub Pages directly from the _main branch_.
 
 
 ## Deployment
 ___
 ___
 
-## Credits
+All code for this website was written in Gitpod and then pushed to GitHub to store in the local repository.
 
-### Code
+It was then published using GitHub Pages directly from the main branch by following the steps below:
+
+Select MS-2-Visit-Kyrgyzstan in the repositories
+Click on _Settings_ in the menu bar
+Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
+The page will reload and you'll be provided with a link to your published website.
+To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
+To create a personal copy of this repository, click on Fork button on the top right corner of the repo page.
+
+*There is no difference between the deployed version and the development version*.
+
+
+
+## Credits
+___
+___
+
+### Code Snippets
+
+
 
 ### Content
 ___
@@ -205,7 +235,8 @@ ___
 * Cards Section content has been taken from [intrepidtravel.com](https://www.intrepidtravel.com/uk/kyrgyzstan),
 [bradtguides.com](https://www.bradtguides.com/destinations/asia/kyrgyzstan/when-and-where-to-visit/) and [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan) websites respectively.
 * Content for the placeholder "World Nomad Games" section has been inspired by [World Nomad Games official website](http://worldnomadgames.com/en/page/About-the-WNG/).
-* All the content for Map Location Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan).
+* All the content for Map Location Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
+* Inspiration on creating a travel website [here](https://www.crazyegg.com/blog/example-travel-websites/).
 
 ### Media
 ___

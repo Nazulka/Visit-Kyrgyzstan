@@ -45,6 +45,7 @@ body p {
   padding-top: 0.6rem;
   display: block;
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 
 .covid-alert a {
@@ -58,7 +59,7 @@ body p {
     
 /*-- Carousel Slide ---*/
 .carousel-inner {
-  max-height: 54rem!important;
+  max-height: 52rem!important;
   background: no-repeat center center;
   object-fit: cover;
 }
