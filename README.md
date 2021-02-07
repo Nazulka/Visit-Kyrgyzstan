@@ -1,7 +1,6 @@
 # Visit Kyrgyzstan
 ___
 ___
-___
 ## Demo 
 Live Demo [here :point_left:]()
 ____
@@ -17,9 +16,6 @@ Table of Contents
 
 
 
-* Homepage is optimised so visitors know what to expect
-
-
 ## UX
 ___
 ___
@@ -27,8 +23,8 @@ ___
 
 * **People with no travel plans in mind (yet) or deciding where to go:**
     * I want to get inspiration for my next travel exerience
-    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the important locations
-    * I want to be able to choose a highlighted location spot and explore it from the comfort of my own home    
+    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the highlighted locations
+    * I want to be able to choose a location spot and explore it from the comfort of my own home    
     * I want to read more about the sections I'm interested in
     * I want to take action and be able to get in touch for more details
     * I want to use interactive elements of the website
@@ -81,7 +77,7 @@ ___
 
 ### Frameworks, Libraries and Programs Used
 
-* **[Bootstrap v4.2.1](https://getbootstrap.com/docs/4.2/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
+* **[Bootstrap v4.5.3](https://getbootstrap.com/docs/4.2/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
 which is compatible with all modern browsers. The components used: navigation, buttons, cards and image-carousel. 
 * **jQuery and Popper.js** plugins - required to ensure proper rendering of the Bootstrap components listed above.  
 * **Git** - used for version control and to keep track of the changes made to the repository.
@@ -198,39 +194,40 @@ and easily understand the purpose of the website.
 
 #### Compatibility Testing
 
+
+
 #### Known Bugs
 * There are no known bugs at the time of submitting this project.
-
-#### Version Control
-* Git is used for version control. 
-* It was published using GitHub Pages directly from the _main branch_.
-
 
 ## Deployment
 ___
 ___
+All code for this website was written in Gitpod and then pushed to GitHub to store in their local repository.
+It was then published using GitHub Pages directly from the _main branch_ by following the steps below:
 
-All code for this website was written in Gitpod and then pushed to GitHub to store in the local repository.
-
-It was then published using GitHub Pages directly from the main branch by following the steps below:
-
-Select MS-2-Visit-Kyrgyzstan in the repositories
-Click on _Settings_ in the menu bar
-Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
-The page will reload and you'll be provided with a link to your published website.
-To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
-To create a personal copy of this repository, click on Fork button on the top right corner of the repo page.
+* Select MS-2-Visit-Kyrgyzstan in the repositories
+* Click on _Settings_ in the menu bar
+* Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
+* The page will reload and you'll be provided with a link to your published website.
+* To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
+* To create a personal copy of this repository, click on Fork button on the top right corner of the repo page.
 
 *There is no difference between the deployed version and the development version*.
-
 
 
 ## Credits
 ___
 ___
-
-### Code Snippets
-
+### Code 
+* Bootstrap documentation has been used to create this responsive website, that is compatible with all modern browsers. The components used include: Buttons, Card, Carousel and Navbar.
+* Multiple "Read More" / "Read Less" buttons in cards section adapted from this thread on [Stack Overflow](https://stackoverflow.com/questions/59085561/multiple-read-more-less-buttons-in-javascript).
+* Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map 
+markers can be added easily in the future. 
+* This code from [Stack Overflow](https://stackoverflow.com/questions/47017679/how-to-show-infowindow-content-in-separate-div) has been adapted to help me to display info windows' content in a separate div. 
+I have had further help from my mentor to get this section working (see _Testing_). 
+* SweetAlert2 customized alert messages library has been suggested by my mentor Excellence Ilesanmi.
+* The code to remove close button ("x") from Google Maps info window has been adapted from [here](https://stackoverflow.com/questions/20544932/remove-close-icon-from-the-google-map-info-window/41864418).
+* I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS.
 
 
 ### Content
@@ -276,9 +273,6 @@ and compressed using [TinyPNG](https://tinypng.com/).
 ___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
 * CI Tutors and Slack Community for help and support. 
-* Bootstrap documentation has been used to create this responsive and compatible with all modern browsers website. The components used include: Buttons, Card, Carousel and Navbar.
-* Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map markers can be added easily in the future. 
-* I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS.
 
 
 
