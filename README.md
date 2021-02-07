@@ -1,9 +1,9 @@
 # Visit Kyrgyzstan
 ___
 ___
-
+![responsive image]()
 ## Demo 
-Live Demo [here :point_left:]()
+Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
 ___
 ## About
@@ -13,31 +13,47 @@ This website aims to promote and advance Kyrgyzstan as a travel destination on t
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
 and provides you with the necessary inspiration to start planning a visit for next summer!
 
+### Table of contents
+
+  * [About](#about)
+  * [UX](#ux)   
+  * [Strategy](#strategy)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+  * [Technologies Used](#technologies-used)  
+  * [Features](#features)    
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+  * [Acknowledgements](#acknowledgements)
+
+
 ## UX
 ___
 ___
 ### **This website will appeal to:**
 
 * **People with no travel plans in mind (yet) or deciding where to go:**
-    * I want to get inspiration for my next travel exerience
-    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the highlighted locations
-    * I want to be able to choose a location spot and explore it from the comfort of my own home    
-    * I want to read more about the sections I'm interested in
-    * I want to take action and be able to get in touch for more details
-    * I want to use interactive elements of the website
+    * I want to get inspiration for my next travel exerience.
+    * I want to be able to understand what kind of travel experience I am being offered and explore it from the comfort of my own home.    
+    * I want to read more about the sections I'm interested in.   
+    * I want to use interactive elements of the website.
 
 * **People making their first or secondary bookings**
-    * I can use the easily accessible simple navigation bar to select the section of the website that I need
-    * I want to find out when is the best time to visit Kyrgyzstan
-    * I want to see beautiful high quality images of new locations I could visit in the future
-    * I want to see new interesting content 
-    * I want to have access to all necessary travel information I need to plan my trip
-    * I can click the featured call to action to learn more information or give feedback
-    
+    * I want to find out more information on situation with Covid-19 in Kyrgyzstan.
+    * I can use the easily accessible simple navigation bar to select the section of the website that I need.
+    * I want to see beautiful images of new locations I could visit in the future.
+    * I want to find out when is the best time to visit Kyrgyzstan.   
+    * I want to have access to all necessary travel information I need to plan my trip.
+    * I can click the featured call to action button to receive a newsletter with travel insights and updates.
+
 * **People who are travelling in the area**
-    * I want to find exiting places to visit locally
-    * I want to use the map to help me make quick decisions what places to visit
-    * To get in touch if I have any questions or queries 
+    * I want to to use the map to find exiting places to visit locally and make quick decisions what places to visit.
+    * I want to use Social Media websites for more inspiration.
+    * I want to get in touch if I have any questions or queries.
+      
 
 ## Strategy
 My goals for this project are:
@@ -119,13 +135,11 @@ ___
     * On the bottom of the section there are "Read more" buttons which hide extra contents of the paragraphs and show the hidden content once user clicks on the button. 
     It allows to keep the page clean and neat. Once clicked, the buttons' inner text change to "Read Less", which user can click again to collapse the content. 
 
-
 * _**Explore**_
     * Explore page consists of a heading, a sidebar and a map elements. The sidebar section contains a placeholder heading and a description text that appear when the page is loaded or refreshed.
     * The map section was designed using Google Maps API and focused on the map of Kyrgyzstan. It also contains markers to identify places of interest for users. 
     * Infowindow with the name of the location appears on mouseover on the markers and disappears on mouseout. This was desined to avoid clutter and increase visibility of the elements of the map. 
     If users click on a marker, a full information, including an image, name and description of the place appear in the sidebar section. 
-
 
 * _**Contact**_
     * This page consists of a heading, paragraph and a contact form. There are three fields in the form: Name (required), 
@@ -134,25 +148,21 @@ ___
     * The form has been connected to EmailJS and allows users to send emails directly, using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
     of the form, users will see a SweetAlert2 custom popup box to inform them if it has been successful / failed.
 
-
 * _**Footer**_
     * Footer is designed using Bootstrap and is located on the bottom of the page. It takes up the whole width of the screen on all devices. 
     * The social media icons are placed in the middle of the bar and change color on hover to let the users know they are clickable. Icons are linked to the external social media websites and open in new tabs.
     * Copyright info is placed underneath the social media icons. 
 
-
 ### Future Features
 
-* To add _**Itinerary Examples**_ to give prospective visitors an idea of where can they go what can they do on their next visit.
 * To add _**Hotel Recommendations**_ - web links to hotel and booking sites.
 * To add a _**Travel Blog**_ to the website that could also be posted on the website's social media pages. 
-Some of the ideas for the blog:
+Some of the ideas for the blog include:
     * Advice for first-time travellers
-    * What to pack when you're going on a trip
+    * What to pack when you're going to Kyrgyzstan
     * Tips for families with young children
-    * Top 10 must see places in Kyrgyzstan
+    * Top 10 must see places
 * To integrate _**Customer Reviews**_ section to the website, as this would enchance customers' confidence in using the website.
-
 
 ## Testing
 ___
@@ -167,26 +177,43 @@ ___
 ___
 
 * **People with no travel plans in mind (yet) or deciding where to go:**
-    * I want to get inspiration for my next travel exerience
-
-    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the highlighted locations
-    * I want to be able to choose a location spot and explore it from the comfort of my own home    
-    * I want to read more about the sections I'm interested in
-    * I want to take action and be able to get in touch for more details
-    * I want to use interactive elements of the website
+    * I want to get inspiration for my next travel exerience.
+        * Image Carousel has showcases captivating high-resolution images to spark the initial travel interest.
+    * I want to be able to understand what kind of travel experience I am being offered and explore it from the comfort of my own home.
+        * The Cards Section of the website is easily accessible and has got all the information needed to show users that their 
+        dream holiday is just a few clicks away.
+    * I want to read more about the sections I'm interested in.
+        * The Cards Section has "Read more" buttons to expand the text, allowing users to read the full information on the topics.
+    * I want to use interactive elements of the website.
+        * The Map Section has markers for each highlighted location. Markers are clickable and allow users to view the image of the destination 
+        as well as the brief description in the separate section.
 
 * **People making their first or secondary bookings**
-    * I can use the easily accessible simple navigation bar to select the section of the website that I need
-    * I want to find out when is the best time to visit Kyrgyzstan
-    * I want to see beautiful high quality images of new locations I could visit in the future
-    * I want to see new interesting content 
-    * I want to have access to all necessary travel information I need to plan my trip
-    * I can click the featured call to action to learn more information or give feedback
-    
+    * I want to know the current situation with Covid-19 in Kyrgyzstan.
+        * The Covid-19 Section that contains this information is visible when users land on the website and draws their attention with it's standout background 
+        color. "Latest travel advice" link, when clicked, takes users to the Kyrgyzstan page of the UK Government's Foreign Travel Advice website. 
+    * I want to use the easily accessible simple navigation bar to select the section of the website that I need.
+        * The navigation bar is fixed to the top of the page and easily accessible from all screen size devices. On a small sized devices 
+        it collapses into a hamburger menu.
+    * I want to see beautiful images of new locations I could visit in the future.
+        * The carousel slide contains high-quality large images.
+    * I want to find out when is the best time to visit Kyrgyzstan.
+        * This information can be easily found in the Cards Section of the website. Users can use interactive "Read more" / "Read less" button
+        to expand / collapse the section.    
+    * I want to have access to all necessary travel information I need to plan my trip.
+        * All sections of the website are clearly labelled and easily accessible.
+    * I can click the featured call to action button to receive a newsletter with travel insights and updates.
+        * The Contact Page is easily accessible via the navigation menu and users can register their interest to receive a newsletter.
+
 * **People who are travelling in the area**
-    * I want to find exiting places to visit locally
-    * I want to use the map to help me make quick decisions what places to visit
-    * To get in touch if I have any questions or queries 
+    * I want to to use the map to find exiting places to visit locally and make quick decisions what places to visit.
+        * The Map Section markers show popular locations users can visit and provide brief overview and an image of the location when clicked. 
+    * I want to use Social Media websites for more inspiration.    
+        * The Social Icons are easily accessible in the footer and allow users to access the website's social media pages.
+    * I want to get in touch if I have any questions or queries.
+        * The Contact Form allows users to get in touch with their queries. 
+
+
 
 #### Further Testing
 ___
@@ -207,7 +234,7 @@ ___
 * Cards Section
     * Cards section images have been tested by hovering over them and zoom-out as expected. 
     * All three Read more / Read less buttons change color on hover and display more / less text when clicked.
-    * Cards section is responsive and works as designed, taking the 100% width of the screen on smaller screen sizes.
+    * Cards section is responsive and works as designed, each taking the 100% width of the screen on smaller screen sizes.
 
 * Map Section
     * All Google Map markers have been for testing purposes and are functioning correctly. Upon click on the markers, the info window content 
@@ -235,12 +262,16 @@ the website was simple, engaging and user-friendly. They were able to intuitivel
 find the information they were looking for and easily understand the purpose of the website.
 
 #### Performance Testing
-* Performance testing was carried out using Lighthouse in Chrome Developer Tools.
-
+Performance testing was carried out using Lighthouse in Chrome Developer Tools. 
+* It has shown excellent performance and accessibility results for desktop devices.
+* For mobile devices the following steps have been taken to improve the performance:
+    * Newer version of the Bootstrap was installed as the older version had security vulnerabilities according to the Lighthouse.
+    * Images were resized and compressed multiple times to improve the loading speed of the website.  
 
 #### Compatibility Testing
-
-
+Compatibility and responsiveness of the website was extensively tested across multiple browsers (Chrome, Safari, Microsoft Edge, Fire Fox) and on muliple screen size 
+devices including iPhone (5, 6, 7, PLus, X), iPad, iPad Pro; Android devices (Microsoft Lumia 950; Kindle Fire, Samsung Galaxy S, HTC One X) using Chrome Dev Tools and Responsive Web Design Tester.
+It was also tested on physical devices including iPhone and iPad. 
 
 #### Known Bugs
 * There are no known bugs at the time of submitting this project.
@@ -248,15 +279,14 @@ find the information they were looking for and easily understand the purpose of 
 ## Deployment
 ___
 ___
-All code for this website was written in Gitpod and then pushed to GitHub to store in their local repository.
-It was then published using GitHub Pages directly from the _main branch_ by following the steps below:
-
-* Select MS-2-Visit-Kyrgyzstan in the repositories
+All code for this website was written in Gitpod and then pushed to GitHub to store in my local repository.
+It was then published using GitHub Pages directly from the _main branch_ by following the steps below: 
+* Select **MS-2-Visit-Kyrgyzstan** in the repositories
 * Click on _Settings_ in the menu bar
-* Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
+* Scroll down to GitHub Pages and select _"main branch"_ in drop-down menu in the _Source_ section
 * The page will reload and you'll be provided with a link to your published website.
-* To run the code locally by **cloning** this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
-* To create a personal copy of this repository, click on **Fork** button on the top right corner of the repo page.
+* To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
+* To create a personal copy of this repository, click on _Fork_ button on the top right corner of the page.
 
 *There is no difference between the deployed version and the development version*.
 
@@ -269,11 +299,11 @@ ___
 * Multiple "Read More" / "Read Less" buttons in cards section adapted from this thread on [Stack Overflow](https://stackoverflow.com/questions/59085561/multiple-read-more-less-buttons-in-javascript).
 * Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map 
 markers can be added easily in the future. 
-* This code from [Stack Overflow](https://stackoverflow.com/questions/47017679/how-to-show-infowindow-content-in-separate-div) has been adapted to help me to display info windows' content in a separate div. 
-I have had further help from my mentor to get this section working (see _Testing_). 
-* SweetAlert2 customized alert messages library has been suggested by my mentor Excellence Ilesanmi.
+* This code from [Stack Overflow](https://stackoverflow.com/questions/47017679/how-to-show-infowindow-content-in-separate-div) has been adapted to help me to display info windows' 
+content in a separate section. I have had further help from my mentor to debug and get this section working. 
+* The use of SweetAlert2 customized alert messages library has been suggested by my mentor Excellence Ilesanmi.
 * The code to remove close button ("x") from Google Maps info window has been adapted from [here](https://stackoverflow.com/questions/20544932/remove-close-icon-from-the-google-map-info-window/41864418).
-* I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS.
+* I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS. Customised alerts were then added for additional user interactivity.
 
 
 ### Content
@@ -284,6 +314,7 @@ ___
 * Content for the placeholder "World Nomad Games" section has been inspired by [World Nomad Games official website](http://worldnomadgames.com/en/page/About-the-WNG/).
 * All the content for Map Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
 * Inspiration on creating a travel website [here](https://www.crazyegg.com/blog/example-travel-websites/).
+* Table of contents generated with [markdown-toc](http://ecotrust-canada.github.io/markdown-toc)
 
 ### Media
 ___
