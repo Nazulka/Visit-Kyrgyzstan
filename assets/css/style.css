@@ -26,7 +26,7 @@ body p {
 }
 
 .navbar-brand img {
-  height: 2.1rem;
+  height: 2rem;
   padding-left: 0.5rem;
 }
 
@@ -233,11 +233,17 @@ ul.social li a i {
 }
 
 @media (max-width: 768px) {
+/*-- Footer --*/
+    .footer-items {
+    width: 80%;
+    padding: 1rem 0.8rem 0 0.8rem;
+  }
 
 /*-- Covid-alert --*/
   .covid-alert p {
     padding-top: 0.4rem;
     font-size: 80%;
+    margin-bottom: 0.5rem;
   }
 
   .covid-link {
@@ -268,12 +274,6 @@ ul.social li a i {
   }
 
 /*--Footer--*/
-  .footer-items {
-    width: 80%;
-    margin: 0 auto;
-    padding: 1rem 0.8rem 0 0.8rem;
-  }
-
   ul.social li {
     font-size: 1.2rem;
   }

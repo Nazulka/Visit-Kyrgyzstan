@@ -24,7 +24,7 @@ function sendMail(contactForm) {
             );
         });      
          
-    // Reset the form to clear the input areas    
+    // Reset the form  
     document.getElementById("contactForm").reset();
     return false;    
 }                 

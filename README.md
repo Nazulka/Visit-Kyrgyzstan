@@ -1,6 +1,7 @@
 # Visit Kyrgyzstan
 ___
 ___
+
 ## Demo 
 Live Demo [here :point_left:]()
 ____
@@ -11,10 +12,6 @@ ___
 This website aims to promote and advance Kyrgyzstan as a travel destination on the international market.
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
 and provides you with the necessary inspiration to start planning a visit for next summer!
-
-Table of Contents 
-
-
 
 ## UX
 ___
@@ -44,7 +41,7 @@ ___
 
 ## Strategy
 My goals for this project are:
-* To provide a virtual experience to explore Kyrgyzstan to all potential travellers
+* To provide a virtual experience of exploring Kyrgyzstan to all potential travellers
 * To promote and convey the essence of the country
 * To enable easy access to the information needed to plan their trip
 * To showcase the best places to visit
@@ -64,7 +61,7 @@ To navigate to different destinations on the website, users need to click naviga
 * [Tablet and mobile wireframes](assets/wireframes/MS2-tablet-mobile.png)
 
 ### Surface
-Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to explore Kyrgyzstan 
+Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to explore the destination 
 from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 ## Technologies Used 
@@ -77,7 +74,7 @@ ___
 
 ### Frameworks, Libraries and Programs Used
 
-* **[Bootstrap v4.5.3](https://getbootstrap.com/docs/4.2/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
+* **[Bootstrap v4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
 which is compatible with all modern browsers. The components used: navigation, buttons, cards and image-carousel. 
 * **jQuery and Popper.js** plugins - required to ensure proper rendering of the Bootstrap components listed above.  
 * **Git** - used for version control and to keep track of the changes made to the repository.
@@ -108,24 +105,25 @@ ___
     * All navigation links change color dark grey on hover and the current page's link stays "active", so the users can easily identify the page they are on.
 
 * _**Home**_
-    * A temporary Covid alert banner has been added to the top of the Home Page, to help users find out latest information on the situation in Kyrgyzstan as 
-    soon as they land on the website. "Learn more" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens in a tew tab.
+    * A temporary Covid alert banner has been added to the top of the Home Page, to help users to find out latest information on the situation in Kyrgyzstan as 
+    soon as they land on the website. "Latest travel advice" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens in a tew tab.
     The red background color has been chosen to highlight the importance of the section and to draw attention. 
-    * Home page consists of a Bootstrap image carousel and cycles through a series of images, that showcase the natural beauty of Kyrgyzstan.
-    The image carousel allows 5 seconds delay between automatically cycling the images and includes previous / next controls for users convenience. 
+    * Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of Kyrgyzstan.
+    The image carousel allows 5 seconds delay between automatically cycling the images and includes previous / next controls for users' convenience. 
 
 * _**Discover**_
     * This page consists of a heading, a text paragraph and Bootstrap 3 cards section. 
-    Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column Bootstrap card section. 
+    Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column (on medium and larger screen sizes) Bootstrap card section. 
+    On small and extra-small screen sizes cards take up the whole width of the screen.
     * Each card consists of an image to visually support the content of the section and is followed by text. Images zoom out on hover for added user interactivity. 
     * On the bottom of the section there are "Read more" buttons which hide extra contents of the paragraphs and show the hidden content once user clicks on the button. 
     It allows to keep the page clean and neat. Once clicked, the buttons' inner text change to "Read Less", which user can click again to collapse the content. 
 
 
 * _**Explore**_
-    * Explore page consists of a heading, a sidebar and a map elements. The sidebar section contains a placeholder heading and a description text for when the page is loaded.
+    * Explore page consists of a heading, a sidebar and a map elements. The sidebar section contains a placeholder heading and a description text that appear when the page is loaded or refreshed.
     * The map section was designed using Google Maps API and focused on the map of Kyrgyzstan. It also contains markers to identify places of interest for users. 
-    * Infowindow with the name of the location appears on mouseover the markers and disappears on mouseout. This was desined to avoid clutter and increase visibility of the elements of the map. 
+    * Infowindow with the name of the location appears on mouseover on the markers and disappears on mouseout. This was desined to avoid clutter and increase visibility of the elements of the map. 
     If users click on a marker, a full information, including an image, name and description of the place appear in the sidebar section. 
 
 
@@ -133,7 +131,7 @@ ___
     * This page consists of a heading, paragraph and a contact form. There are three fields in the form: Name (required), 
     Email (required) and Message (optional), as well as a checkbox and a "Submit" button. All fields were carefully selected to make the form look simple to use and informal in order to appeal to a wider pool of users. 
     "I would like to receive a newsletter" checkbox allows users to subscribe for a newsletter.
-    * The form has been connected to EmailJS and allows users to send emails directly to me using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
+    * The form has been connected to EmailJS and allows users to send emails directly, using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
     of the form, users will see a SweetAlert2 custom popup box to inform them if it has been successful / failed.
 
 
@@ -167,30 +165,78 @@ ___
 
 ### Testing User Stories from UX section of this file 
 ___
-#### First Time Visitors' Goals 
 
+* **People with no travel plans in mind (yet) or deciding where to go:**
+    * I want to get inspiration for my next travel exerience
 
+    * I want to see large high quality images of beautiful landscapes and views and a brief summary of the highlighted locations
+    * I want to be able to choose a location spot and explore it from the comfort of my own home    
+    * I want to read more about the sections I'm interested in
+    * I want to take action and be able to get in touch for more details
+    * I want to use interactive elements of the website
 
-#### Returning Visitors' Goals
+* **People making their first or secondary bookings**
+    * I can use the easily accessible simple navigation bar to select the section of the website that I need
+    * I want to find out when is the best time to visit Kyrgyzstan
+    * I want to see beautiful high quality images of new locations I could visit in the future
+    * I want to see new interesting content 
+    * I want to have access to all necessary travel information I need to plan my trip
+    * I can click the featured call to action to learn more information or give feedback
+    
+* **People who are travelling in the area**
+    * I want to find exiting places to visit locally
+    * I want to use the map to help me make quick decisions what places to visit
+    * To get in touch if I have any questions or queries 
 
-
-
-### Further Testing
+#### Further Testing
 ___
 #### Functionality Testing
 * Navigation Bar
+    * The fixed navbar is placed on top of the page and always visible on all screen sizes.
+    * All the links on the navbar have been clicked to test and are working as intended, allowing users to jump to the linked page.
+    * Brand logo is linked to the Home page and is working as expected.
+    * The navbar collapses into a hamburger menu on screen sizes smaller than 768px. A navigation menu appears 
+    when you click on the hamburger icon. This has been tested and working as intended.
+
 * Image Carousel
+    * Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning 
+    as intended, allowing 5 seconds delay between automatically cycling the images.
+    * Carousel-fade animation is working properly and allows a fade transition instead of a slide.
+    * Previous and Next controls have been clicked to test and are working as expected, taking users to the previous / next slide.
+
 * Cards Section
+    * Cards section images have been tested by hovering over them and zoom-out as expected. 
+    * All three Read more / Read less buttons change color on hover and display more / less text when clicked.
+    * Cards section is responsive and works as designed, taking the 100% width of the screen on smaller screen sizes.
+
 * Map Section
+    * All Google Map markers have been for testing purposes and are functioning correctly. Upon click on the markers, the info window content 
+    appears in the sidebar section, located to the left of the map on medium and larger screens and on top of the map on small screen sizes.
+    * On hover, info windows do not display "x" closing button as it has been intentionally removed for a cleaner look.
+
 * Contact Form
+    * The Contact form has been tested by submitting the form with one or more empty required fields. This returns an error message requesting to fill in all the requested fields.
+    * When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from 
+    entering incorrect email address.
+    * "Submit" button changes color on hover as intended.
+    * JavaScript reset function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" 
+    button it returns the form to it's initial state.
+    * When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and 
+    is working as expected.
+
 * Footer
+    * Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
+    * Change of colour and transition effects on hovering over Social icons have been tested and working as intended.
+    * Click on each Social icon revealed that links are functioning as intended and open in new tabs.
 
 #### Usability Testing
 Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that 
-the website was simple, engaging and user-friendly at the same time. They were able to intuitively use the interactive elements of the website, find the information they were looking for 
-and easily understand the purpose of the website.
+the website was simple, engaging and user-friendly. They were able to intuitively use the interactive elements of the website, 
+find the information they were looking for and easily understand the purpose of the website.
 
 #### Performance Testing
+* Performance testing was carried out using Lighthouse in Chrome Developer Tools.
+
 
 #### Compatibility Testing
 
@@ -209,8 +255,8 @@ It was then published using GitHub Pages directly from the _main branch_ by foll
 * Click on _Settings_ in the menu bar
 * Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
 * The page will reload and you'll be provided with a link to your published website.
-* To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
-* To create a personal copy of this repository, click on Fork button on the top right corner of the repo page.
+* To run the code locally by **cloning** this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
+* To create a personal copy of this repository, click on **Fork** button on the top right corner of the repo page.
 
 *There is no difference between the deployed version and the development version*.
 
@@ -258,7 +304,7 @@ and compressed using [TinyPNG](https://tinypng.com/).
 
 * Images used for "Explore these places" section:    
     * An image for a placeholder "World Nomad Games" section is from [Adobe Stock](https://stock.adobe.com/uk/images/nomad-men-wrestling-on-horseback-traditional-game-of-er-enish/223414147)
-    * Images for map location markers: 
+    * Images for map location markers have been taken from Adobe Stock and Unsplash and can be found via links below: 
         * [Altin-Arashan Valley](https://unsplash.com/photos/Fp89mUyzBfc) 
         * [Jeti-Oguz Gorge](https://stock.adobe.com/uk/images/seven-bulls-jeti-ogyz-valley-red-sandstone-formation-in-kyrgyzstan/339842818)
         * [Issyk-Kul Lake](https://unsplash.com/photos/u5dpDkGjnKQ)
