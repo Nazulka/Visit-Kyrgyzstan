@@ -1,7 +1,7 @@
 # Visit Kyrgyzstan
 ___
 ___
-![responsive image]((https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo1.jpg "responsive image"))
+![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/tree/main/assets/images/demo1.jpg "responsive image")
 ## Demo 
 Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
