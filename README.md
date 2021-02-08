@@ -1,7 +1,7 @@
 # Visit Kyrgyzstan
 ___
 ___
-![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo1.png "responsive image")
+![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo.jpg "responsive image")
 ## Demo 
 Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
@@ -9,10 +9,10 @@ ____
 ___
 This website aims to promote and advance Kyrgyzstan as a travel destination on the international market.
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
-and provides you with the necessary inspiration to start planning a visit for next summer!
+and provides users with the necessary inspiration to start planning a visit for next summer!
 
 ### Table of contents
-
+___
   * [About](#about)
   * [UX](#ux)   
   * [Strategy](#strategy)
@@ -32,11 +32,11 @@ and provides you with the necessary inspiration to start planning a visit for ne
 ___
 ___
 ### **This website will appeal to:**
-
+___
 * **People with no travel plans in mind (yet) or deciding where to go:**
     * I want to get inspiration for my next travel exerience.
     * I want to be able to understand what kind of travel experience I am being offered and explore it from the comfort of my own home.    
-    * I want to read more about the sections I'm interested in.   
+    * I want to read more about the topics that I'm interested in.   
     * I want to use interactive elements of the website.
 
 * **People making their first or secondary bookings**
@@ -53,41 +53,47 @@ ___
     * I want to get in touch if I have any questions or queries.
       
 
-## Strategy
-Project goals:
+### Strategy
+___
+**Project goals:**
 * To provide a virtual experience to explore Kyrgyzstan to all potential travellers.
 * To promote and convey the essence of the country.
 * To enable easy access to the information needed to plan their trip.
 * To showcase the best places to visit.
-* To ensure users are able to get in touch directly from the website via the Contact Form with their queries or feedback.
+* To ensure users are able to get in touch directly from the website via the Contact Form.
 
-## Scope
+### Scope
+___
 To create a website that ensures continuous, intuitive and fluid experience for the users. 
 The content is split into small chunks that are clean and comprehensible to help users to plan their next trip.
 
-## Structure
+### Structure
+___
 This website is a single page website that consists of four sections: Home, Discover, Explore and Contact.
 To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different 
 sections of the content or scroll down the page.
 
 ### Skeleton 
-
+___
 * [Desktop wireframes](assets/wireframes/MS2-desktop.png)
 * [Tablet and mobile wireframes](assets/wireframes/MS2-tablet-mobile.png)
 
 ### Surface
-Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to 
+___
+Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to 
 explore the destination from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 ## Technologies Used 
 ___
 ___
 ### Languages Used
+___
 * HTML5
 * CSS3
 * JavaScript
 
 ### Frameworks, Libraries and Programs Used
+___
 
 * **[Bootstrap v4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)** - used to create a layout and to build a responsive, mobile-first design, 
 which is compatible with all modern browsers. The components used: navigation, buttons, cards and image-carousel. 
@@ -109,8 +115,9 @@ which is compatible with all modern browsers. The components used: navigation, b
 ___
 ___
 ### Existing Features
+___
 
-* _**Header**_
+* **Header**
     * Header - responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.  
     It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website. 
     * Navigation bar includes a brand logo and links to the four sections of the website: Home, Discover, Explore and Contact.
@@ -119,28 +126,28 @@ ___
     back to the Home page without having to use the hamburger menu.
     * All navigation links change color to dark grey (#4E4E4E) on hover and the current page's link stays "active", so the users can easily identify the page they are on.
 
-* _**Home**_
+* **Home**
     * A temporary Covid alert banner has been added to the top of the Home Page, to help users to find out latest information on the situation in Kyrgyzstan as 
     soon as they land on the website. "Latest travel advice" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens up in a tew tab.
     The red background color has been chosen to highlight the importance of the section and to draw users' attention. 
     * Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of Kyrgyzstan.
     The image carousel allows 5 seconds delay between automatically cycling the images and includes previous / next controls for users' convenience. 
 
-* _**Discover**_
-    * This page consists of a heading, a text paragraph and Bootstrap 3 cards section. 
+* **Discover**
+    * This page consists of a heading, a text paragraph and Bootstrap 3 column cards section. 
     Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column (on medium and larger screen sizes) Bootstrap card section. 
     On small and extra-small screen sizes cards take up the whole width of the screen.
     * Each card consists of an image to visually support the content of the section and is followed by text. Images zoom out on hover for added user interactivity. 
     * On the bottom of the section there are "Read more" buttons which hide extra contents of the paragraphs and show the hidden content once user clicks on the button. 
     It allows to keep the page clean and neat. Once clicked, the buttons' inner text change to "Read Less", which user can click again to collapse the content. 
 
-* _**Explore**_
+* **Explore**
     * Explore page consists of a heading, a sidebar and a map elements. The sidebar section contains a placeholder heading and a description text that appear when the page is loaded or refreshed.
     * The map section was designed using Google Maps API and focused on the map of Kyrgyzstan. It also contains markers to identify places of interest for users. 
     * Infowindow with the name of the location appears on mouseover on the markers and disappears on mouseout. This was desined to avoid clutter and increase visibility of the elements of the map. 
     If users click on a marker, a full information, including an image, name and description of the place appear in the sidebar section. 
 
-* _**Contact**_
+* **Contact**
     * This page consists of a heading, paragraph and a contact form. The form includes fields: Name (required), 
     Email (required) and Message (optional), as well as a checkbox and a "Submit" button. All fields were carefully selected to make the form look simple to use and informal in order to 
     appeal to a wider pool of users. 
@@ -148,22 +155,23 @@ ___
     * The form has been connected to EmailJS and allows users to send emails directly, using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
     of the form, users will see a SweetAlert2 custom popup box to inform them if it has been successful / failed.
 
-* _**Footer**_
+* **Footer**
     * Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices. 
     * The social media icons are placed in the middle of the bar and change color on hover (#a4a7a5) to let users know they are clickable. 
     Icons are linked to the external social media websites and open in new tabs.
     * Copyright info is placed underneath the social media icons. 
 
 ### Future Features
+___
 
-* To add _**Hotel Recommendations**_ - web links to hotel and booking sites.
-* To add a _**Travel Blog**_ to the website that could also be posted on the website's social media pages. 
+* To add **Hotel Recommendations** - web links to hotel and booking sites.
+* To add a **Travel Blog** to the website that could also be posted on the website's social media pages. 
 Some of the ideas for the blog include:
     * Advice for first-time travellers
     * What to pack when you're going to Kyrgyzstan
     * Tips for families with young children
     * Top 10 must see places
-* To integrate _**Customer Reviews**_ section to the website, as this would enchance customers' confidence in using the website.
+* To integrate **Customer Reviews** section to the website, as this would enchance customers' confidence in using the website.
 
 ## Testing
 ___
@@ -214,35 +222,35 @@ ___
     * I want to get in touch if I have any questions or queries.
         * The Contact Form allows users to get in touch with their queries. 
 
-
-
-#### Further Testing
+## Further Testing
 ___
-#### Functionality Testing
-* Navigation Bar
+___
+### Functionality Testing
+___
+* **Navigation Bar**
     * The fixed navbar is placed on top of the page and always visible on all screen sizes.
     * All the links on the navbar have been clicked to test and are working as intended, allowing users to jump to the linked page.
     * Brand logo is linked to the Home page and is working as expected.
     * The navbar collapses into a hamburger menu on screen sizes smaller than 768px. A navigation menu appears 
     when you click on the hamburger icon. This has been tested and working as intended.
 
-* Image Carousel
+* **Image Carousel**
     * Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning 
     as intended, allowing 5 seconds delay between automatically cycling the images.
     * Carousel-fade animation is working properly and allows a fade transition instead of a slide.
     * Previous and Next controls have been clicked to test and are working as expected, taking users to the previous / next slide.
 
-* Cards Section
+* **Cards Section**
     * Cards section images have been tested by hovering over them and zoom-out as expected. 
     * All three Read more / Read less buttons change color on hover and display more / less text when clicked. The inner texts of the buttons change when clicked as expected too.
     * Cards section is responsive and works as designed, each taking the 100% width of the screen on smaller screen sizes.
 
-* Map Section
+* **Map Section**
     * All Google Map markers have been for testing purposes and are functioning correctly. Upon click on the markers, the info window content 
     appears in the sidebar section, located to the left of the map on medium and larger screens and on top of the map on small screen sizes.
     * On hover, info windows do not display "x" closing button as it has been intentionally removed for a cleaner look.
 
-* Contact Form
+* **Contact Form**
     * The Contact form has been tested by submitting the form with one or more empty required fields. This returns an error message requesting to fill in all the requested fields.
     * When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from 
     entering incorrect email address.
@@ -253,30 +261,34 @@ ___
     is working as expected.
     * The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
 
-* Footer
+* **Footer**
     * Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
     * Change of colour and transition effects on hovering over Social icons have been tested and working as intended.
     * Click on each Social icon revealed that links are functioning as intended and open in new tabs.
 
-#### Usability Testing
+### Usability Testing
+___
 Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that 
 the website was simple, engaging and user-friendly. They were able to intuitively use the interactive elements of the website, 
 find the information they were looking for and easily understand the purpose of the website.
 
-#### Performance Testing
+### Performance Testing
+___
 Performance testing was carried out using Lighthouse in Chrome Developer Tools. 
-* It has shown excellent performance and accessibility results for desktop devices.
+It has shown excellent performance and accessibility results for desktop devices.
 * For mobile devices the following steps have been taken to improve the performance:
     * Newer version of the Bootstrap was installed as the older version had security vulnerabilities according to the Lighthouse.
     * Images were resized and compressed multiple times to improve the loading speed of the website.  
 
-#### Compatibility Testing
+### Compatibility Testing
+___
 Compatibility and responsiveness of the website was extensively tested across multiple browsers (Chrome, Safari, Microsoft Edge, Fire Fox) and on muliple screen size 
 devices including iPhone (5, 6, 7, PLus, X), iPad, iPad Pro; Android devices (Microsoft Lumia 950; Kindle Fire, Samsung Galaxy S, HTC One X) using Chrome Dev Tools and Responsive Web Design Tester.
 It was also tested on physical devices including iPhone and iPad. 
 
-#### Known Bugs
-* There are no known bugs at the time of submitting this project.
+### Known Bugs
+___
+There are no known bugs at the time of submitting this project.
 
 ## Deployment
 ___
@@ -290,13 +302,13 @@ It was then published using GitHub Pages directly from the _main branch_ by foll
 * To run the code locally by cloning this repository, click on _Download_ Code. To clone the repository using HTTPS, under "Clone with HTTPS" click on _Save_.
 * To create a personal copy of this repository, click on _Fork_ button on the top right corner of the page.
 
-*There is no difference between the deployed version and the development version*.
-
+There is no difference between the deployed version and the development version.
 
 ## Credits
 ___
 ___
 ### Code 
+___
 * Bootstrap documentation has been used to create this responsive website, that is compatible with all modern browsers. The components used include: Buttons, Card, Carousel and Navbar.
 * Multiple "Read More" / "Read Less" buttons in cards section adapted from this thread on [Stack Overflow](https://stackoverflow.com/questions/59085561/multiple-read-more-less-buttons-in-javascript).
 * Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map 
@@ -306,7 +318,6 @@ content in a separate section. I have had further help from my mentor to debug a
 * The use of SweetAlert2 customized alert messages library has been suggested by my mentor Excellence Ilesanmi.
 * The code to remove close button ("x") from Google Maps info window has been adapted from [here](https://stackoverflow.com/questions/20544932/remove-close-icon-from-the-google-map-info-window/41864418).
 * I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS. Customised alerts were then added for additional user interactivity.
-
 
 ### Content
 ___
