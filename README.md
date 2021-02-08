@@ -1,7 +1,7 @@
 # Visit Kyrgyzstan
 ___
 ___
-![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/assets/images/demo1.png "responsive image")
+![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo1.png "responsive image")
 ## Demo 
 Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
@@ -352,7 +352,7 @@ and compressed using [TinyPNG](https://tinypng.com/).
 ___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
 * CI Tutors and Slack Community for help and support. 
-nnnn
+
 
 
 
