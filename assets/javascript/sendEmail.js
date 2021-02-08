@@ -1,4 +1,4 @@
-// 
+// Create sendMail function (adapted from CI walkthrough project)
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "MS2", {
@@ -7,15 +7,18 @@ function sendMail(contactForm) {
         "info_request": contactForm.message.value,
         "newsletter_request": contactForm.newsletter.value
     })
+    // supply then() method for the promise
     .then(
+        // Sweet Alert custom pop-up alert if success
         function () {
+           
             Swal.fire(
             'Thank you for contacting us!',
             'Message sent!',
             'success'
             );
         },        
-                    
+          // Sweet Alert custom pop-up alert if fail            
         function () {
             Swal.fire(
             'Oops...',
@@ -24,7 +27,7 @@ function sendMail(contactForm) {
             );
         });      
          
-    // Reset the form  
+    // Clear the form and stop the page scrolling up 
     document.getElementById("contactForm").reset();
     return false;    
 }                 
