@@ -5,9 +5,7 @@ ___
 ## Demo 
 Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
-___
 ## About
-___
 ___
 This website aims to promote and advance Kyrgyzstan as a travel destination on the international market.
 It communicates the diverse appeal of the country: it's authenticity, natural beauty and unique nomadic culture 
@@ -56,12 +54,12 @@ ___
       
 
 ## Strategy
-My goals for this project are:
-* To provide a virtual experience of exploring Kyrgyzstan to all potential travellers
-* To promote and convey the essence of the country
-* To enable easy access to the information needed to plan their trip
-* To showcase the best places to visit
-* To answer all questions and queries sent via the website and provide more information when requested
+Project goals:
+* To provide a virtual experience to explore Kyrgyzstan to all potential travellers.
+* To promote and convey the essence of the country.
+* To enable easy access to the information needed to plan their trip.
+* To showcase the best places to visit.
+* To ensure users are able to get in touch directly from the website via the Contact Form with their queries or feedback.
 
 ## Scope
 To create a website that ensures continuous, intuitive and fluid experience for the users. 
@@ -69,7 +67,8 @@ The content is split into small chunks that are clean and comprehensible to help
 
 ## Structure
 This website is a single page website that consists of four sections: Home, Discover, Explore and Contact.
-To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
+To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different 
+sections of the content or scroll down the page.
 
 ### Skeleton 
 
@@ -77,8 +76,8 @@ To navigate to different destinations on the website, users need to click naviga
 * [Tablet and mobile wireframes](assets/wireframes/MS2-tablet-mobile.png)
 
 ### Surface
-Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to explore the destination 
-from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
+Simple white background, minimalist design, easily accessible navigation together with stunning images of destinations were selected to allow users to 
+explore the destination from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 ## Technologies Used 
 ___
@@ -102,7 +101,7 @@ which is compatible with all modern browsers. The components used: navigation, b
 * **[Adobe Photoshop Express](https://photoshop.adobe.com/)** - to resize some of the images used for the map section of the website.
 * **Google Fonts** - Roboto font has been used throughout the website.
 * **Google maps API** - used to embed Google Maps into the website, to provide users with the locations information.
-* **EmailJS API** - to create an email template and enable users to send emails directly without useing the server.
+* **EmailJS API** - to create an email template and enable users to send emails directly without using the server.
 * **SweetAlert2** - an interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
 
@@ -118,12 +117,12 @@ ___
     * Navigation links are collapsed in small screen sizes into a hamburger menu and from medium size screens and larger, expand into a full size menu bar.
     * Brand logo serves as a Home page link, in addition to the Home link in the navbar. It is particularly convinient for users accessing the website on smaller screen devices to get 
     back to the Home page without having to use the hamburger menu.
-    * All navigation links change color dark grey on hover and the current page's link stays "active", so the users can easily identify the page they are on.
+    * All navigation links change color to dark grey (#4E4E4E) on hover and the current page's link stays "active", so the users can easily identify the page they are on.
 
 * _**Home**_
     * A temporary Covid alert banner has been added to the top of the Home Page, to help users to find out latest information on the situation in Kyrgyzstan as 
-    soon as they land on the website. "Latest travel advice" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens in a tew tab.
-    The red background color has been chosen to highlight the importance of the section and to draw attention. 
+    soon as they land on the website. "Latest travel advice" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens up in a tew tab.
+    The red background color has been chosen to highlight the importance of the section and to draw users' attention. 
     * Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of Kyrgyzstan.
     The image carousel allows 5 seconds delay between automatically cycling the images and includes previous / next controls for users' convenience. 
 
@@ -142,15 +141,17 @@ ___
     If users click on a marker, a full information, including an image, name and description of the place appear in the sidebar section. 
 
 * _**Contact**_
-    * This page consists of a heading, paragraph and a contact form. There are three fields in the form: Name (required), 
-    Email (required) and Message (optional), as well as a checkbox and a "Submit" button. All fields were carefully selected to make the form look simple to use and informal in order to appeal to a wider pool of users. 
+    * This page consists of a heading, paragraph and a contact form. The form includes fields: Name (required), 
+    Email (required) and Message (optional), as well as a checkbox and a "Submit" button. All fields were carefully selected to make the form look simple to use and informal in order to 
+    appeal to a wider pool of users. 
     "I would like to receive a newsletter" checkbox allows users to subscribe for a newsletter.
     * The form has been connected to EmailJS and allows users to send emails directly, using client-side technologies, without a need for a server. Upon clicking on the "Submit" button
     of the form, users will see a SweetAlert2 custom popup box to inform them if it has been successful / failed.
 
 * _**Footer**_
-    * Footer is designed using Bootstrap and is located on the bottom of the page. It takes up the whole width of the screen on all devices. 
-    * The social media icons are placed in the middle of the bar and change color on hover to let the users know they are clickable. Icons are linked to the external social media websites and open in new tabs.
+    * Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices. 
+    * The social media icons are placed in the middle of the bar and change color on hover (#a4a7a5) to let users know they are clickable. 
+    Icons are linked to the external social media websites and open in new tabs.
     * Copyright info is placed underneath the social media icons. 
 
 ### Future Features
@@ -190,7 +191,7 @@ ___
 
 * **People making their first or secondary bookings**
     * I want to know the current situation with Covid-19 in Kyrgyzstan.
-        * The Covid-19 Section that contains this information is visible when users land on the website and draws their attention with it's standout background 
+        * The Covid-19 Section is visible when users land on the website and draws their attention with it's standout background 
         color. "Latest travel advice" link, when clicked, takes users to the Kyrgyzstan page of the UK Government's Foreign Travel Advice website. 
     * I want to use the easily accessible simple navigation bar to select the section of the website that I need.
         * The navigation bar is fixed to the top of the page and easily accessible from all screen size devices. On a small sized devices 
@@ -233,7 +234,7 @@ ___
 
 * Cards Section
     * Cards section images have been tested by hovering over them and zoom-out as expected. 
-    * All three Read more / Read less buttons change color on hover and display more / less text when clicked.
+    * All three Read more / Read less buttons change color on hover and display more / less text when clicked. The inner texts of the buttons change when clicked as expected too.
     * Cards section is responsive and works as designed, each taking the 100% width of the screen on smaller screen sizes.
 
 * Map Section
@@ -247,9 +248,10 @@ ___
     entering incorrect email address.
     * "Submit" button changes color on hover as intended.
     * JavaScript reset function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" 
-    button it returns the form to it's initial state.
+    button, it returns the form to it's initial state.
     * When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and 
     is working as expected.
+    * The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
 
 * Footer
     * Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
@@ -350,6 +352,7 @@ and compressed using [TinyPNG](https://tinypng.com/).
 ___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
 * CI Tutors and Slack Community for help and support. 
+nnnn
 
 
 

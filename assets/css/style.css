@@ -60,6 +60,7 @@ body p {
 /*-- Carousel Slide ---*/
 .carousel-inner {
   max-height: 52rem!important;
+  width: 100%;
   background: no-repeat center center;
   object-fit: cover;
 }
@@ -234,7 +235,7 @@ ul.social li a i {
 
 @media (max-width: 768px) {
 /*-- Footer --*/
-    .footer-items {
+  .footer-items {
     width: 80%;
     padding: 1rem 0.8rem 0 0.8rem;
   }
