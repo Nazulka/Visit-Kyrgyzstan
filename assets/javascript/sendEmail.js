@@ -10,8 +10,7 @@ function sendMail(contactForm) {
     // supply then() method for the promise
     .then(
         // Sweet Alert custom pop-up alert if success
-        function () {
-           
+        function () {           
             Swal.fire(
             'Thank you for contacting us!',
             'Message sent!',
@@ -25,9 +24,8 @@ function sendMail(contactForm) {
             'Something went wrong!',
             'error'
             );
-        });      
-         
-    // Clear the form and stop the page scrolling up 
+        });               
+    // Clear the form and stop the page from scrolling up 
     document.getElementById("contactForm").reset();
     return false;    
 }                 

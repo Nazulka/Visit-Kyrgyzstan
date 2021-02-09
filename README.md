@@ -248,11 +248,15 @@ ___
 * **Cards Section**
     * Cards section images have been tested by hovering over them and zoom-out as expected. 
     * All three Read more / Read less buttons change color on hover and display more / less text when clicked. The inner texts of the buttons change when clicked as expected too.
+    During the development process, clicking on "Read more" button resulted in only the first button working correctly. This has been rectified by following an advice from a 
+    thread in Stack Overflow (see Code Credits) - the `display` properties have been removed so the classes can be added / removed in JavaScript to change the inner texts of the buttons.
     * Cards section is responsive and works as designed, each taking the 100% width of the screen on smaller screen sizes.
 
 * **Map Section**
-    * All Google Map markers have been for testing purposes and are functioning correctly. Upon click on the markers, the info window content 
+    * All Google Map markers have been for testing purposes and are functioning correctly. Upon clicking on the markers, the corresponding info window content 
     appears in the sidebar section, located to the left of the map on medium and larger screens and on top of the map on small screen sizes.
+    * This section proved to be very challenging to get it work correctly and required an extensive online research. I have also had help from my mentor during our live 
+    project review session to debug and ensure the image and description of the places display in the "sidebar" div when the markers are clicked. 
     * On hover, info windows do not display "x" closing button as it has been intentionally removed for a cleaner look.
 
 * **Contact Form**
@@ -260,8 +264,9 @@ ___
     * When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from 
     entering incorrect email address.
     * "Submit" button changes color on hover as intended.
-    * JavaScript reset function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" 
-    button, it returns the form to it's initial state.
+    * JavaScript `reset()` function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" 
+    button.
+    * Tests revealed that the page was scrolling up to the top each time the form had been submitted. To prevent this from happening, `return false;` has been added to the event handler.
     * When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and 
     is working as expected.
     * The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
@@ -315,11 +320,10 @@ ___
 ### Code 
 ___
 * Bootstrap documentation has been used to create this responsive website, that is compatible with all modern browsers. The components used include: Buttons, Card, Carousel and Navbar.
-* Multiple "Read More" / "Read Less" buttons in cards section adapted from this thread on [Stack Overflow](https://stackoverflow.com/questions/59085561/multiple-read-more-less-buttons-in-javascript).
-* Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in optimising Google Maps JavaScript code so new map 
-markers can be added easily in the future. 
+* Multiple "Read More" / "Read Less" buttons in cards section adapted from multiple threads on Stack Overflow, with the main one being [this one](https://stackoverflow.com/questions/59085561/multiple-read-more-less-buttons-in-javascript).
+* Recommendations from [this](https://www.youtube.com/watch?v=Zxf1mnP5zcw) video tutorial have been helpful in adding a code that loops through the markers and optimising it so new map markers can be added easily in the future. 
 * This code from [Stack Overflow](https://stackoverflow.com/questions/47017679/how-to-show-infowindow-content-in-separate-div) has been adapted to help me to display info windows' 
-content in a separate section. I have had further help from my mentor to debug and get this section working. 
+content in a separate section.
 * The use of SweetAlert2 customized alert messages library has been suggested by my mentor Excellence Ilesanmi.
 * The code to remove close button ("x") from Google Maps info window has been adapted from [here](https://stackoverflow.com/questions/20544932/remove-close-icon-from-the-google-map-info-window/41864418).
 * I have referred to CI "Signing Up To EmailJS" Walkthrough Project when linking my Contact form to EamilJS. Customised alerts were then added for additional user interactivity.
@@ -330,7 +334,7 @@ ___
 * Cards Section content has been taken from [intrepidtravel.com](https://www.intrepidtravel.com/uk/kyrgyzstan),
 [bradtguides.com](https://www.bradtguides.com/destinations/asia/kyrgyzstan/when-and-where-to-visit/) and [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan) websites respectively.
 * Content for the placeholder "World Nomad Games" section has been inspired by [World Nomad Games official website](http://worldnomadgames.com/en/page/About-the-WNG/).
-* All the content for Map Infowindows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
+* All the content for Map marker info windows have been taken from [Wikipedia](https://en.wikipedia.org/wiki/Kyrgyzstan)
 * Inspiration on creating a travel website [here](https://www.crazyegg.com/blog/example-travel-websites/).
 * Table of contents generated with [markdown-toc](http://ecotrust-canada.github.io/markdown-toc)
 
@@ -346,7 +350,7 @@ and compressed using [TinyPNG](https://tinypng.com/).
     * Image 5 is from Unsplash by [Bobby Rahe](https://unsplash.com/photos/gkf1w-Y_Ub0)
 
 * Cards Section
-    * All images are from Adobe Stock and can be found here: 
+    * All images are from Adobe Stock and have been linked below: 
         * ["Emerging 'It' place; Kyrgyzstan"](https://stock.adobe.com/uk/images/bishkek-ala-too-square-13/249492203)
         * ["Best time to visit"](https://stock.adobe.com/uk/images/beautiful-kazakh-woman-in-national-costume/175310996)
         * ["Food and Culture"](https://stock.adobe.com/uk/images/nice-typical-good-bread-in-kyrgyzstan/197397213).
@@ -368,7 +372,5 @@ and compressed using [TinyPNG](https://tinypng.com/).
 ___
 * My mentor **Excellence Ilesanmi** for his continuous support and feedback throughout this project.
 * CI Tutors and Slack Community for help and support. 
-
-
 
 
