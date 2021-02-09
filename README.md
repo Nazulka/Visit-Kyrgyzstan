@@ -39,6 +39,8 @@ ___
     * I want to read more about the topics that I'm interested in.   
     * I want to use interactive elements of the website.
 
+![User Stories 1](assets/images/user-stories1.jpg)
+
 * **People making their first or secondary bookings**
     * I want to find out more information on situation with Covid-19 in Kyrgyzstan.
     * I can use the easily accessible simple navigation bar to select the section of the website that I need.
@@ -47,11 +49,14 @@ ___
     * I want to have access to all necessary travel information I need to plan my trip.
     * I can click the featured call to action button to receive a newsletter with travel insights and updates.
 
+![User Stories 2](assets/images/user-stories2.jpg)
+
 * **People who are travelling in the area**
     * I want to to use the map to find exiting places to visit locally and make quick decisions what places to visit.
     * I want to use Social Media websites for more inspiration.
     * I want to get in touch if I have any questions or queries.
-      
+
+![User Stories 3](assets/images/user-stories3.jpg)     
 
 ### Strategy
 ___
