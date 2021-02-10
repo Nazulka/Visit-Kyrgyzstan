@@ -32,7 +32,7 @@ body p {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #4E4E4E!important;
+  color: #4E4E4E;
 }
 
 /*-- Covid-alert --*/
@@ -49,7 +49,8 @@ body p {
 }
 
 .covid-alert a {
-  color: #2c2c2c;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .covid-link {
@@ -59,9 +60,8 @@ body p {
     
 /*-- Carousel Slide ---*/
 .carousel-inner {
-  max-height: 52rem!important;
-  width: 100%;
-  background: no-repeat center center;
+  max-height: 52rem;
+  width: 100%;  
   object-fit: cover;
 }
 
@@ -115,7 +115,7 @@ h1 {
 }
 
 .btn-danger:hover {
-  color: red!important;
+  color: red;
   background-color: #fff;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -162,8 +162,7 @@ div#map {
 }
 
 /*-- Form --*/
-.contact-form {
-  max-width: 80%;
+.contact-form {  
   margin: 0 auto;
 }
 
@@ -226,8 +225,6 @@ ul.social li a i {
   color: #fff;
   padding: 0;
 }
-
-
 
 /*--Media Queries--*/
 @media (max-width: 1200px) {

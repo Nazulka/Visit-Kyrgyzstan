@@ -3,8 +3,7 @@
 var cards = document.querySelector('#discover-cards');
 
 cards.addEventListener('click', function(e) {
-  var target = e.target;
- // Add / remove classes 
+  var target = e.target; 
   if (target.classList.contains('btn')) {       
     var cardBody = target.parentNode;
     var open = target.dataset.open === 'true';

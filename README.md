@@ -1,6 +1,5 @@
 # Visit Kyrgyzstan
 ___
-___
 ![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo.jpg "responsive image")
 ## Demo 
 Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
@@ -29,7 +28,6 @@ ___
 
 
 ## UX
-___
 ___
 ### **This website will appeal to:**
 ___
@@ -90,7 +88,6 @@ explore the destination from their computers, whether they are looking for a gui
 
 ## Technologies Used 
 ___
-___
 ### Languages Used
 ___
 * HTML5
@@ -118,10 +115,8 @@ which is compatible with all modern browsers. The components used: navigation, b
 
 ## Features
 ___
-___
 ### Existing Features
 ___
-
 * **Header**
     * Header - responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.  
     It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website. 
@@ -180,7 +175,6 @@ Some of the ideas for the blog include:
 
 ## Testing
 ___
-___
 ### Code Validity
 ___
 * HTML Markup Validation Service - [Pass](https://validator.w3.org/)
@@ -228,7 +222,6 @@ ___
         * The Contact Form allows users to get in touch with their queries. 
 
 ## Further Testing
-___
 ___
 ### Functionality Testing
 ___
@@ -302,7 +295,6 @@ There are no known bugs at the time of submitting this project.
 
 ## Deployment
 ___
-___
 All code for this website was written in Gitpod and then pushed to GitHub to store in my local repository.
 It was then published using GitHub Pages directly from the _main branch_ by following the steps below: 
 * Select **MS-2-Visit-Kyrgyzstan** in the repositories
@@ -315,7 +307,6 @@ It was then published using GitHub Pages directly from the _main branch_ by foll
 There is no difference between the deployed version and the development version.
 
 ## Credits
-___
 ___
 ### Code 
 ___
