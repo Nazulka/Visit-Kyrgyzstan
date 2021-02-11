@@ -71,6 +71,7 @@ h1 {
   letter-spacing: .08rem;
   margin: 0 auto;
   text-align: center;
+  padding-top: 3rem;
 }
 
 .lead {
@@ -270,7 +271,21 @@ ul.social li a i {
   body p {
     line-height: 1.6;
   }
+  .about-country-heading {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 
+  /* -- Map Section --*/
+  .map-title {
+      padding-top: 3rem;
+  }
+  div#map {
+  min-height: 500px; 
+}
+  .sidebar {
+      height: auto;
+  }
 /*--Footer--*/
   ul.social li {
     font-size: 1.2rem;
