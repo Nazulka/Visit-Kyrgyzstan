@@ -249,6 +249,12 @@ ul.social li a i {
     padding-right: 0.4rem;
     padding-left: 0.4rem;
   }
+
+  .about-country-heading {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -271,11 +277,7 @@ ul.social li a i {
   body p {
     line-height: 1.6;
   }
-  .about-country-heading {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
+  
   /* -- Map Section --*/
   .map-title {
       padding-top: 3rem;
