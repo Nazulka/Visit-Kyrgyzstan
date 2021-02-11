@@ -2,7 +2,7 @@
 ___
 ![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo.jpg "responsive image")
 ## Demo 
-Live Demo [here :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
+[Live Demo :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
 ____
 ## About
 ___
@@ -51,7 +51,7 @@ ___
 
 * **People who are travelling in the area**
     * I want to to use the map to find exiting places to visit locally and make quick decisions what places to visit.
-    * I want to use Social Media websites for more inspiration.
+    * I want to use the website's Social Media for more inspiration.
     * I want to get in touch if I have any questions or queries.
 
 ![User Stories 3](assets/images/user-stories3.jpg)     
@@ -84,7 +84,7 @@ ___
 ### Surface
 ___
 Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to 
-explore the destination from their computers, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
+explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 ## Technologies Used 
 ___
@@ -124,10 +124,10 @@ ___
     * Navigation links are collapsed in small screen sizes into a hamburger menu and from medium size screens and larger, expand into a full size menu bar.
     * Brand logo serves as a Home page link, in addition to the Home link in the navbar. It is particularly convinient for users accessing the website on smaller screen devices to get 
     back to the Home page without having to use the hamburger menu.
-    * All navigation links change color to dark grey (#4E4E4E) on hover and the current page's link stays "active", so the users can easily identify the page they are on.
+    * All navigation links change color to dark grey (#4E4E4E) on hover.
 
 * **Home**
-    * A temporary Covid alert banner has been added to the top of the Home Page, to help users to find out latest information on the situation in Kyrgyzstan as 
+    * A temporary Covid-19 alert banner has been added to the top of the Home Page, to help users to find out the latest information on the situation in Kyrgyzstan as 
     soon as they land on the website. "Latest travel advice" - serves as a link and takes users to GOV.UK website's Kyrgyzstan travel advice page, which opens up in a tew tab.
     The red background color has been chosen to highlight the importance of the section and to draw users' attention. 
     * Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of Kyrgyzstan.
@@ -135,7 +135,7 @@ ___
 
 * **Discover**
     * This page consists of a heading, a text paragraph and Bootstrap 3 column cards section. 
-    Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column (on medium and larger screen sizes) Bootstrap card section. 
+    Heading - is an HTML h1 element, that also serves as a title for the whole website. It is followed by a text section and three column (on medium and larger screen sizes) Bootstrap cards section. 
     On small and extra-small screen sizes cards take up the whole width of the screen.
     * Each card consists of an image to visually support the content of the section and is followed by text. Images zoom out on hover for added user interactivity. 
     * On the bottom of the section there are "Read more" buttons which hide extra contents of the paragraphs and show the hidden content once user clicks on the button. 
@@ -179,7 +179,7 @@ ___
 ___
 * HTML Markup Validation Service - [Pass](https://validator.w3.org/)
 * CSS Validation Service - [Pass](https://jigsaw.w3.org/css-validator/)
-* JavaScript Code Quality Tool - [JSHint](https://jshint.com/) 
+* JavaScript Code Quality Tool JSHint - [No errors](https://jshint.com/) 
 
 ### Testing User Stories from UX section of this file 
 ___
@@ -241,7 +241,7 @@ ___
 * **Cards Section**
     * Cards section images have been tested by hovering over them and zoom-out as expected. 
     * All three Read more / Read less buttons change color on hover and display more / less text when clicked. The inner texts of the buttons change when clicked as expected too.
-    During the development process, clicking on "Read more" button resulted in only the first button working correctly. This has been rectified by following an advice from a 
+    During the development process, clicking on "Read more" button resulted in only the first button working correctly. This has been rectified by following an recommendation from a 
     thread in Stack Overflow (see Code Credits) - the `display` properties have been removed so the classes can be added / removed in JavaScript to change the inner texts of the buttons.
     * Cards section is responsive and works as designed, each taking the 100% width of the screen on smaller screen sizes.
 
@@ -259,14 +259,14 @@ ___
     * "Submit" button changes color on hover as intended.
     * JavaScript `reset()` function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" 
     button.
-    * Tests revealed that the page was scrolling up to the top each time the form had been submitted. To prevent this from happening, `return false;` has been added to the event handler.
+    * Tests revealed that the page was scrolling up to the top each time the form had been submitted. To prevent this from happening, `return false;` had been added to the event handler.
     * When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and 
     is working as expected.
     * The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
 
 * **Footer**
     * Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
-    * Change of colour and transition effects on hovering over Social icons have been tested and working as intended.
+    * Change of colour and transition effects on hovering over Social Icons have been tested and working as intended.
     * Click on each Social icon revealed that links are functioning as intended and open in new tabs.
 
 ### Usability Testing

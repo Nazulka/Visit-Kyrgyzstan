@@ -71,7 +71,7 @@ h1 {
   letter-spacing: .08rem;
   margin: 0 auto;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .lead {
@@ -251,8 +251,8 @@ ul.social li a i {
   }
 
   .about-country-heading {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
 }
@@ -280,13 +280,14 @@ ul.social li a i {
   
   /* -- Map Section --*/
   .map-title {
-      padding-top: 3rem;
+    padding-top: 3rem;
   }
   div#map {
-  min-height: 500px; 
+    min-height: 500px; 
 }
   .sidebar {
-      height: auto;
+    height: auto;
+    padding-bottom: 1rem;
   }
 /*--Footer--*/
   ul.social li {
