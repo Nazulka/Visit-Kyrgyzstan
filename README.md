@@ -2,7 +2,7 @@
 ___
 ![responsive image](https://github.com/Nazulka/MS2-Visit-Kyrgyzstan/blob/main/assets/images/demo.jpg "responsive image")
 ## Demo 
-[Live Demo :point_left:](https://nazulka.github.io/MS2-Visit-Kyrgyzstan/)
+[Live Demo :point_left:](https://nazulka.github.io/Visit-Kyrgyzstan/)
 ____
 ## About
 ___
